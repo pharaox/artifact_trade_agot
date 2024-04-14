@@ -10,7 +10,10 @@
 
 	# The AGOT merchant can't be targeted by interactions
 	trigger_if = {
-		limit = { exists = scope:recipient }
+		limit = {
+			exists = scope:actor
+			exists = global_var:agot_artifact_keeper
+		}
 		custom_description = {
 			text = "at_agot_cant_interact_with_merchant_tt"
 			NOT = { this = global_var:agot_artifact_keeper }
@@ -48,7 +51,10 @@ at_can_start_interaction_trigger = {
 
 	# The AGOT merchant can't initiate interactions
 	trigger_if = {
-		limit = { exists = scope:actor }
+		limit = {
+			exists = scope:actor
+			exists = global_var:agot_artifact_keeper
+		}
 		NOT = { this = global_var:agot_artifact_keeper }
 	}
 }
