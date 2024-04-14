@@ -1,0 +1,13 @@
+﻿at_artifacts_window_selected_special_filter_option_trigger = {
+	trigger_if = {
+		limit = { ROOT.var:at_artifacts_window_selected_special_filter_option = flag:_valyrian_steel }
+		has_variable = valyrian_steel
+	}
+	trigger_else_if = {
+		limit = { ROOT.var:at_artifacts_window_selected_special_filter_option = flag:_not_valyrian_steel }
+		NOT = { has_variable = valyrian_steel }
+	}
+	trigger_else = {
+		always = yes
+	}
+}

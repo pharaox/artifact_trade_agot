@@ -1,0 +1,4 @@
+﻿at_artifacts_window_add_special_filter_options_effect = {
+	add_to_global_variable_list = { name = at_artifacts_window_special_filter_options target = flag:_valyrian_steel }
+	add_to_global_variable_list = { name = at_artifacts_window_special_filter_options target = flag:_not_valyrian_steel }
+}
