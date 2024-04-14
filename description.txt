@@ -1,0 +1,41 @@
+This is an [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962238514]Search & Trade Artifacts[/url] compatibility patch for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962333032]A Game of Thrones[/url]. For an overview of features and other changes, see the [url=https://github.com/pharaox/artifact_trade/blob/main/README.md]Search & Trade Artifacts README[/url].
+
+The latest version is compatible with CK3 1.12.x, STA 0.9.x and AGOT 0.2.x.
+
+Load order:
+[list]
+  [*] AGOT
+  [*] Search & Trade Artifacts
+  [*] Search & Trade Artifacts AGOT Compatibility
+[/list]
+
+[h2]Overview[/h2]
+
+Search & Trade Artifacts is already largely compatible with most mods due to its design, however there are a few minor things that don't work quite as expected with conversion mods without a compatch. This submod is making it fully compatible with AGOT. It introduces the following changes:
+
+[list]
+  [*] Enables proper filtering by modifier for historical artifacts added by AGOT (such as Valyrian stell blades)
+  [*] Eliminates errors due to vanilla artifact modifiers and religions that don't exist in AGOT.
+  [*] Adds an AGOT-specific [b]Special[/b] filter option for Valyrian steel blades.
+  [*] Ensures that the [b]Buy Artifact[/b] and [b]Sell Artifact[/b] interactions abide by certain AGOT restrictions, such as:
+  [list]
+    [*] Non-humans can't be interacted with.
+    [*] Wildlings can only interact with wildlings, and vice versa.
+  [/list]
+[/list]
+
+[h2]AGOT Artifact Trading[/h2]
+
+AGOT will soon introduce (or has already introduced) its own artifact trading system. It enables both players and AI to buy artifacts from or sell artifacts to a special character known as the [i]Treasure Keeper[/i] via a decision. The artifact prices, AI willingness to buy or sell, and other core aspects of this trading system have been contributed by me ([b]@pharaox[/b]) and are based on STA logic, so this system is fully compatible with STA even without this submod. In addition, this submod ensures that the [i]Treasure Keeper[/i] can't be targeted by the [b]Buy Artifact[/b] and [b]Sell Artifact[/b] interactions.
+
+AGOT artifact trading is subject to certain restrictions that also apply to STA interactions and the vanilla [b]Destroy Artifact[/b] interaction if STA is enabled. These are:
+[list]
+  [*] The AI can't trade special AGOT artifacts such as historical unique artifacts, Valyrian steel blades, and dragon eggs.
+  [*] Both players and AI can't trade special thrones (e.g. [i]The Iron Throne[/i]).
+  [*] Both players and AI can't destroy special AGOT artifacts of all 4 kinds listed above.
+[/list]
+
+[h2]Links[/h2]
+[list]
+  [*] [url=https://github.com/pharaox/artifact_trade_agot]GitHub Repository[/url]
+[/list]
