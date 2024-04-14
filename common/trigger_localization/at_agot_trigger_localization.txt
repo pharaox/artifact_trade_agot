@@ -1,0 +1,11 @@
+﻿at_agot_cant_interact_with_merchant_tt = {
+	third_not = at_agot_cant_interact_with_merchant_tt
+}
+
+at_agot_wildlings_cant_interact_with_non_wildlings_tt = {
+	third_not = at_agot_wildlings_cant_interact_with_non_wildlings_tt
+}
+
+at_agot_non_wildlings_cant_interact_with_wildlings_tt = {
+	third_not = at_agot_non_wildlings_cant_interact_with_wildlings_tt
+}

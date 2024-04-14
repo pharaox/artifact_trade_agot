@@ -1,0 +1,59 @@
+﻿at_can_interact_with_trigger = {
+	NOT = { this = $PARTY$ }
+	is_busy_in_events_localised = yes
+	in_diplomatic_range = $PARTY$
+	NOT = { is_at_war_with = $PARTY$ }
+	is_imprisoned = no
+
+	# Non-humans can't be targeted by interactions
+	is_human = yes
+
+	# The AGOT merchant can't be targeted by interactions
+	trigger_if = {
+		limit = { exists = scope:recipient }
+		custom_description = {
+			text = "at_agot_cant_interact_with_merchant_tt"
+			NOT = { this = global_var:agot_artifact_keeper }
+		}
+	}
+
+	# Wildlings can only interact with wildlings, and vice versa
+	trigger_if = {
+		limit = {
+			culture = { agot_is_wildling_culture = yes }
+		}
+		custom_description = {
+			text = "at_agot_wildlings_cant_interact_with_non_wildlings_tt"
+			$PARTY$ = {
+				culture = { agot_is_wildling_culture = yes }
+			}
+		}
+	}
+	trigger_else = {
+		custom_description = {
+			text = "at_agot_non_wildlings_cant_interact_with_wildlings_tt"
+			$PARTY$ = {
+				culture = { agot_is_wildling_culture = no }
+			}
+		}
+	}
+}
+
+at_can_start_interaction_trigger = {
+	is_busy_in_events_localised = yes
+	is_imprisoned = no
+
+	# Non-humans can't be initiate interactions
+	is_human = yes
+
+	# The AGOT merchant can't initiate interactions
+	trigger_if = {
+		limit = { exists = scope:actor }
+		NOT = { this = global_var:agot_artifact_keeper }
+	}
+}
+
+at_has_artifact_relic_flag_religion_trigger = {
+	exists = $ARTIFACT$
+	always = no
+}
