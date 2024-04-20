@@ -14,7 +14,7 @@ Load order:
 
 Search & Trade Artifacts is already largely compatible with most mods due to its design, however there are a few minor things that don't work quite as expected with conversion mods without a compatch. This submod is making it fully compatible with AGOT. It introduces the following changes:
 
-* Enables proper filtering by modifier for historical artifacts added by AGOT (such as Valyrian stell blades)
+* Enables proper filtering by modifier for historical artifacts added by AGOT (such as Valyrian steel blades)
 * Eliminates errors due to vanilla artifact modifiers and religions that don't exist in AGOT.
 * Adds an AGOT-specific **Special** filter option for Valyrian steel blades.
 * Ensures that the **Buy Artifact** and **Sell Artifact** interactions abide by certain AGOT restrictions, such as:
