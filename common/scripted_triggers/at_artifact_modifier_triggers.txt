@@ -165,6 +165,9 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = iron_throne_modifier
 		has_artifact_modifier = seastone_chair_modifier
 		has_artifact_modifier = gilded_throne_modifier
+		has_artifact_modifier = seahorse_statue_modifier
+		has_artifact_modifier = ruined_oakenseat_modifier
+		has_artifact_modifier = restored_oakenseat_modifier
 
 		# monthly_prestige_gain_per_dread_add
 		has_artifact_modifier = artifact_monthly_prestige_gain_per_dread_add_1_modifier
@@ -293,6 +296,9 @@ at_has_artifact_court_grandeur_modifier = {
 		has_artifact_modifier = iron_throne_modifier
 		has_artifact_modifier = seastone_chair_modifier
 		has_artifact_modifier = gilded_throne_modifier
+		has_artifact_modifier = seahorse_statue_modifier
+		has_artifact_modifier = ruined_oakenseat_modifier
+		has_artifact_modifier = restored_oakenseat_modifier
 	}
 }
 
@@ -422,6 +428,8 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = iron_throne_modifier
 		has_artifact_modifier = seastone_chair_modifier
 		has_artifact_modifier = gilded_throne_modifier
+		has_artifact_modifier = ruined_oakenseat_modifier
+		has_artifact_modifier = restored_oakenseat_modifier
 
 		# monthly_dynasty_prestige
 		has_artifact_modifier = artifact_monthly_prestige_add_1_modifier
@@ -653,6 +661,7 @@ at_has_artifact_dynasty_opinion_modifier = {
 		has_artifact_modifier = daemonblackfyre_crown_modifier
 		has_artifact_modifier = rhaegars_armour_modifier
 		has_artifact_modifier = roberts_armour_modifier
+		has_artifact_modifier = seahorse_statue_modifier
 	}
 }
 
@@ -1805,5 +1814,7 @@ at_has_artifact_legitimacy_modifier = { # TODO
 		has_artifact_modifier = iron_throne_modifier
 		has_artifact_modifier = seastone_chair_modifier
 		has_artifact_modifier = gilded_throne_modifier
+		has_artifact_modifier = ruined_oakenseat_modifier
+		has_artifact_modifier = restored_oakenseat_modifier
 	}
 }
