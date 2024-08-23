@@ -63,6 +63,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = vs_supremacy_modifier
 		has_artifact_modifier = vs_wyrmfang_modifier
 		has_artifact_modifier = vs_widestripe_modifier
+		has_artifact_modifier = vs_dancer_modifier
 		has_artifact_modifier = vs_adders_fang_modifier
 		has_artifact_modifier = vs_iron_will_modifier
 		has_artifact_modifier = vs_evergold_modifier
@@ -168,6 +169,12 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = seahorse_statue_modifier
 		has_artifact_modifier = ruined_oakenseat_modifier
 		has_artifact_modifier = restored_oakenseat_modifier
+		has_artifact_modifier = dud_egg_modifier
+		has_artifact_modifier = dragon_skull_modifier
+		has_artifact_modifier = dragon_horn_modifier
+		has_artifact_modifier = painted_table_modifier
+		has_artifact_modifier = glass_candle_modifier
+		has_artifact_modifier = glass_candle_modifier_higher
 
 		# monthly_prestige_gain_per_dread_add
 		has_artifact_modifier = artifact_monthly_prestige_gain_per_dread_add_1_modifier
@@ -282,7 +289,6 @@ at_has_artifact_court_grandeur_modifier = {
 		has_artifact_modifier = crystal_carving_modifier
 		has_artifact_modifier = afarganyu_modifier
 		#AGOT
-		has_artifact_modifier = dragon_egg_modifier
 		has_artifact_modifier = uller_skull_modifier
 		has_artifact_modifier = hands_hand_modifier
 		has_artifact_modifier = aemond_eye_modifier
@@ -299,6 +305,8 @@ at_has_artifact_court_grandeur_modifier = {
 		has_artifact_modifier = seahorse_statue_modifier
 		has_artifact_modifier = ruined_oakenseat_modifier
 		has_artifact_modifier = restored_oakenseat_modifier
+		has_artifact_modifier = dud_egg_modifier
+		has_artifact_modifier = painted_table_modifier
 	}
 }
 
@@ -341,6 +349,7 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = vs_supremacy_modifier
 		has_artifact_modifier = vs_wyrmfang_modifier
 		has_artifact_modifier = vs_widestripe_modifier
+		has_artifact_modifier = vs_dancer_modifier
 		has_artifact_modifier = vs_adders_fang_modifier
 		has_artifact_modifier = vs_iron_will_modifier
 		has_artifact_modifier = vs_evergold_modifier
@@ -430,6 +439,9 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = gilded_throne_modifier
 		has_artifact_modifier = ruined_oakenseat_modifier
 		has_artifact_modifier = restored_oakenseat_modifier
+		has_artifact_modifier = dud_egg_modifier
+		has_artifact_modifier = dragon_skull_modifier
+		has_artifact_modifier = painted_table_modifier
 
 		# monthly_dynasty_prestige
 		has_artifact_modifier = artifact_monthly_prestige_add_1_modifier
@@ -495,6 +507,8 @@ at_has_artifact_dread_modifier = {
 		has_artifact_modifier = bittersteel_skull_modifier
 		has_artifact_modifier = maelys_skull_modifier
 		has_artifact_modifier = daemon_blackfyre_skull_modifier
+		has_artifact_modifier = dragon_skull_modifier
+		has_artifact_modifier = dragon_horn_modifier
 	}
 }
 
@@ -508,6 +522,7 @@ at_has_artifact_fertility_modifier = {
 		has_artifact_modifier = artifact_fertility_negative_modifier
 		#AGOT
 		has_artifact_modifier = alysannecrown_modifier
+		has_artifact_modifier = moons_rod_modifier
 	}
 }
 
@@ -682,6 +697,8 @@ at_has_artifact_attraction_opinion_modifier = {
 		has_artifact_modifier = crown_of_true_winter_modifier
 		has_artifact_modifier = rhaegars_armour_modifier
 		has_artifact_modifier = queen_of_love_and_beauty_artifact_modifier
+		has_artifact_modifier = moons_rod_modifier
+		has_artifact_modifier = myrish_lace_modifier
 	}
 }
 
@@ -802,6 +819,7 @@ at_has_artifact_culture_opinion_modifier = { # TODO
 		has_artifact_modifier = hands_hand_modifier
 		has_artifact_modifier = smugglers_fingers_modifier
 		has_artifact_modifier = harmund_tongue_modifier
+		has_artifact_modifier = dothraki_bow_modifier
 	}
 }
 
@@ -898,6 +916,8 @@ at_has_artifact_domain_tax_modifier = {
 		# <terrain>_tax_mult
 		# historical
 		has_artifact_modifier = afarganyu_modifier
+		#AGOT
+		has_artifact_modifier = pentoshi_cheese_modifier
 	}
 }
 
@@ -1323,6 +1343,7 @@ at_has_artifact_martial_modifier = {
 		has_artifact_modifier = crown_of_mudd_modifier
 		has_artifact_modifier = westerosi_valyrian_crown2_modifier
 		has_artifact_modifier = lucerys_gun_modifier
+		has_artifact_modifier = norvoshi_bear_carving_modifier
 
 		# martial_per_stress_level
 
@@ -1387,6 +1408,8 @@ at_has_artifact_learning_modifier = {
 		has_artifact_modifier = crown_of_true_winter_modifier
 		has_artifact_modifier = saans_scrolls_artifact_modifier
 		has_artifact_modifier = oily_black_stone_modifier
+		has_artifact_modifier = glass_candle_modifier
+		has_artifact_modifier = glass_candle_modifier_higher
 
 		# learning_per_stress_level
 		has_artifact_modifier = artifact_learning_per_stress_level_2_modifier
@@ -1458,6 +1481,7 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = vs_supremacy_modifier
 		has_artifact_modifier = vs_wyrmfang_modifier
 		has_artifact_modifier = vs_widestripe_modifier
+		has_artifact_modifier = vs_dancer_modifier
 		has_artifact_modifier = vs_adders_fang_modifier
 		has_artifact_modifier = vs_iron_will_modifier
 		has_artifact_modifier = vs_evergold_modifier
@@ -1483,6 +1507,7 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = roberts_armour_modifier
 		has_artifact_modifier = kingsguard_armour_modifier
 		has_artifact_modifier = lucerys_gun_modifier
+		has_artifact_modifier = dothraki_bow_modifier
 
 		# prowess_per_piety_level
 		#AGOT
@@ -1759,6 +1784,7 @@ at_has_artifact_advantage_modifier = {
 		has_artifact_modifier = vs_longclaw_modifier
 		has_artifact_modifier = vs_wyrmfang_modifier
 		has_artifact_modifier = vs_widestripe_modifier
+		has_artifact_modifier = vs_dancer_modifier
 		has_artifact_modifier = vs_iron_will_modifier
 
 		# winter_advantage
@@ -1816,5 +1842,6 @@ at_has_artifact_legitimacy_modifier = { # TODO
 		has_artifact_modifier = gilded_throne_modifier
 		has_artifact_modifier = ruined_oakenseat_modifier
 		has_artifact_modifier = restored_oakenseat_modifier
+		has_artifact_modifier = painted_table_modifier
 	}
 }
