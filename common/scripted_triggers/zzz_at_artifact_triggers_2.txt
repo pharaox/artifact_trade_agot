@@ -59,6 +59,10 @@ at_can_start_interaction_trigger = {
 	}
 }
 
+at_can_own_artifacts_trigger = {
+	is_human = yes
+}
+
 at_has_artifact_relic_flag_religion_trigger = {
 	exists = $ARTIFACT$
 	always = no
