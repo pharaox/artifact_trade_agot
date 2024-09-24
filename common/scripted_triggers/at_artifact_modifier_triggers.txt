@@ -175,6 +175,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = painted_table_modifier
 		has_artifact_modifier = glass_candle_modifier
 		has_artifact_modifier = glass_candle_modifier_higher
+		has_artifact_modifier = crown_of_the_seven_modifier
 
 		# monthly_prestige_gain_per_dread_add
 		has_artifact_modifier = artifact_monthly_prestige_gain_per_dread_add_1_modifier
@@ -774,6 +775,7 @@ at_has_artifact_county_opinion_modifier = { # TODO
 		# county_opinion_add
 		#AGOT
 		has_artifact_modifier = iron_throne_modifier
+		has_artifact_modifier = horn_of_herrock_modifier
 	}
 }
 
@@ -796,6 +798,7 @@ at_has_artifact_religion_opinion_modifier = { # TODO
 		has_artifact_modifier = stars_of_hugor_modifier
 		has_artifact_modifier = harmund_tongue_modifier
 		has_artifact_modifier = seastone_chair_modifier
+		has_artifact_modifier = crown_of_the_seven_modifier
 	}
 }
 
@@ -820,6 +823,7 @@ at_has_artifact_culture_opinion_modifier = { # TODO
 		has_artifact_modifier = smugglers_fingers_modifier
 		has_artifact_modifier = harmund_tongue_modifier
 		has_artifact_modifier = dothraki_bow_modifier
+		has_artifact_modifier = horn_of_herrock_modifier
 	}
 }
 
@@ -1372,6 +1376,10 @@ at_has_artifact_stewardship_modifier = {
 		has_artifact_modifier = artifact_stewardship_per_stress_level_2_modifier
 
 		# stewardship_per_prestige_level
+
+		# stewardship_per_piety_level
+		#AGOT
+		has_artifact_modifier = crown_of_the_seven_modifier
 	}
 }
 
@@ -1687,6 +1695,10 @@ at_has_artifact_damage_toughness_pursuit_screen_modifier = {
 
 at_has_artifact_advantage_modifier = {
 	OR = {
+		# advantage
+		#AGOT
+		has_artifact_modifier = horn_of_herrock_modifier
+
 		# tolerance_advantage_mod
 		has_artifact_modifier = artifact_tolerance_advantage_mod_1_modifier
 		has_artifact_modifier = artifact_tolerance_advantage_mod_2_modifier
