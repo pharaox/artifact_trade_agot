@@ -176,6 +176,16 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = glass_candle_modifier
 		has_artifact_modifier = glass_candle_modifier_higher
 		has_artifact_modifier = crown_of_the_seven_modifier
+		has_artifact_modifier = redbeard_axe_modifier
+		has_artifact_modifier = crown_of_first_men_modifier
+		has_artifact_modifier = dornish_crown_modifier
+		has_artifact_modifier = valeman_crown_modifier
+		has_artifact_modifier = westerlands2_crown_modifier
+		has_artifact_modifier = stormlander_crown_modifier
+		has_artifact_modifier = reachman_crown_modifier
+		has_artifact_modifier = swann_crown_modifier
+		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
+		has_artifact_modifier = dragon_doll_02_modifier
 
 		# monthly_prestige_gain_per_dread_add
 		has_artifact_modifier = artifact_monthly_prestige_gain_per_dread_add_1_modifier
@@ -256,6 +266,18 @@ at_has_artifact_piety_modifier = {
 		has_artifact_modifier = artifact_monthly_piety_from_buildings_mult_10_modifier
 		has_artifact_modifier = artifact_monthly_piety_from_buildings_mult_11_modifier
 		has_artifact_modifier = artifact_monthly_piety_from_buildings_mult_12_modifier
+
+		# monthly_piety_gain_per_legitimacy_level_mult
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_1_modifier
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_2_modifier
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_3_modifier
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_4_modifier
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_5_modifier
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_6_modifier
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_7_modifier
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_8_modifier
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_9_modifier
+		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_10_modifier
 	}
 }
 
@@ -308,6 +330,7 @@ at_has_artifact_court_grandeur_modifier = {
 		has_artifact_modifier = restored_oakenseat_modifier
 		has_artifact_modifier = dud_egg_modifier
 		has_artifact_modifier = painted_table_modifier
+		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
 	}
 }
 
@@ -443,6 +466,14 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = dud_egg_modifier
 		has_artifact_modifier = dragon_skull_modifier
 		has_artifact_modifier = painted_table_modifier
+		has_artifact_modifier = crown_of_first_men_modifier
+		has_artifact_modifier = dornish_crown_modifier
+		has_artifact_modifier = valeman_crown_modifier
+		has_artifact_modifier = westerlands2_crown_modifier
+		has_artifact_modifier = stormlander_crown_modifier
+		has_artifact_modifier = reachman_crown_modifier
+		has_artifact_modifier = swann_crown_modifier
+		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
 
 		# monthly_dynasty_prestige
 		has_artifact_modifier = artifact_monthly_prestige_add_1_modifier
@@ -471,6 +502,7 @@ at_has_artifact_tyranny_modifier = {
 		has_artifact_modifier = artifact_monthly_tyranny_6_modifier
 		has_artifact_modifier = artifact_monthly_tyranny_7_modifier
 		has_artifact_modifier = artifact_monthly_tyranny_8_modifier
+		has_artifact_modifier = artifact_armor_knight_of_the_swan_artifact_modifier
 
 		# tyranny_gain_mult
 		has_artifact_modifier = artifact_tyranny_gain_mult_1_modifier
@@ -510,6 +542,7 @@ at_has_artifact_dread_modifier = {
 		has_artifact_modifier = daemon_blackfyre_skull_modifier
 		has_artifact_modifier = dragon_skull_modifier
 		has_artifact_modifier = dragon_horn_modifier
+		has_artifact_modifier = skinchangers_second_pelt_modifier
 	}
 }
 
@@ -545,6 +578,7 @@ at_has_artifact_health_modifier = {
 		has_artifact_modifier = artifact_negate_health_penalty_add_4_modifier
 		#AGOT
 		has_artifact_modifier = vs_pride_modifier
+		has_artifact_modifier = giants_tooth_modifier
 	}
 }
 
@@ -642,8 +676,10 @@ at_has_artifact_courtier_and_guest_opinion_modifier = {
 		has_artifact_modifier = artifact_courtier_and_guest_opinion_6_modifier
 		has_artifact_modifier = artifact_courtier_and_guest_opinion_7_modifier
 		has_artifact_modifier = artifact_courtier_and_guest_opinion_8_modifier
+		has_artifact_modifier = artifact_armor_knight_of_the_swan_artifact_modifier
 		#AGOT
 		has_artifact_modifier = vs_disputant_modifier
+		# courtier_opinion
 	}
 }
 
@@ -657,6 +693,7 @@ at_has_artifact_spouse_opinion_modifier = {
 		#AGOT
 		has_artifact_modifier = rhaenys_circlet_modifier
 		has_artifact_modifier = reach_crown_modifier
+		has_artifact_modifier = reachman_crown_modifier
 	}
 }
 
@@ -690,6 +727,7 @@ at_has_artifact_attraction_opinion_modifier = {
 		has_artifact_modifier = artifact_attraction_opinion_4_modifier
 		has_artifact_modifier = artifact_attraction_opinion_negative_1_modifier
 		has_artifact_modifier = artifact_attraction_opinion_negative_2_modifier
+		has_artifact_modifier = artifact_armor_knight_of_the_swan_artifact_modifier
 		#AGOT
 		has_artifact_modifier = vs_swordfish_modifier
 		has_artifact_modifier = vs_supremacy_modifier
@@ -700,6 +738,7 @@ at_has_artifact_attraction_opinion_modifier = {
 		has_artifact_modifier = queen_of_love_and_beauty_artifact_modifier
 		has_artifact_modifier = moons_rod_modifier
 		has_artifact_modifier = myrish_lace_modifier
+		has_artifact_modifier = viserra_mirror_modifier
 	}
 }
 
@@ -708,6 +747,8 @@ at_has_artifact_child_opinion_modifier = {
 		# child_opinion
 		has_artifact_modifier = artifact_child_opinion_1_modifier
 		has_artifact_modifier = artifact_child_opinion_2_modifier
+		#AGOT
+		has_artifact_modifier = giants_tooth_modifier
 	}
 }
 
@@ -727,6 +768,7 @@ at_has_artifact_clergy_opinion_modifier = {
 		has_artifact_modifier = artifact_clergy_opinion_11_modifier
 		has_artifact_modifier = artifact_clergy_opinion_12_modifier
 		has_artifact_modifier = artifact_clergy_opinion_penalty_2_modifier
+		#has_artifact_modifier = artifact_clergy_opinion_penalty_5_modifier
 	}
 }
 
@@ -761,7 +803,11 @@ at_has_artifact_different_faith_opinion_modifier = {
 	}
 }
 
-at_has_artifact_different_culture_opinion_modifier = { # TODO
+at_has_artifact_same_culture_opinion_modifier = {
+	always = no
+}
+
+at_has_artifact_different_culture_opinion_modifier = {
 	OR = {
 		# different_culture_opinion
 		#AGOT
@@ -770,7 +816,7 @@ at_has_artifact_different_culture_opinion_modifier = { # TODO
 	}
 }
 
-at_has_artifact_county_opinion_modifier = { # TODO
+at_has_artifact_county_opinion_modifier = {
 	OR = {
 		# county_opinion_add
 		#AGOT
@@ -779,7 +825,7 @@ at_has_artifact_county_opinion_modifier = { # TODO
 	}
 }
 
-at_has_artifact_religion_opinion_modifier = { # TODO
+at_has_artifact_religion_opinion_modifier = {
 	OR = {
 		# *_religion_opinion
 		#AGOT
@@ -799,10 +845,13 @@ at_has_artifact_religion_opinion_modifier = { # TODO
 		has_artifact_modifier = harmund_tongue_modifier
 		has_artifact_modifier = seastone_chair_modifier
 		has_artifact_modifier = crown_of_the_seven_modifier
+		has_artifact_modifier = valeman_crown_modifier
+		has_artifact_modifier = dragon_doll_02_modifier
+		has_artifact_modifier = viserra_mirror_modifier
 	}
 }
 
-at_has_artifact_culture_opinion_modifier = { # TODO
+at_has_artifact_culture_opinion_modifier = {
 	OR = {
 		# *_opinion
 		#AGOT
@@ -824,6 +873,8 @@ at_has_artifact_culture_opinion_modifier = { # TODO
 		has_artifact_modifier = harmund_tongue_modifier
 		has_artifact_modifier = dothraki_bow_modifier
 		has_artifact_modifier = horn_of_herrock_modifier
+		has_artifact_modifier = redbeard_axe_modifier
+		has_artifact_modifier = stormlander_crown_modifier
 	}
 }
 
@@ -1135,48 +1186,48 @@ at_has_artifact_scheme_secrecy_modifier = {
 
 at_has_artifact_scheme_power_modifier = {
 	OR = {
-		# hostile_scheme_power_add
-		has_artifact_modifier = artifact_hostile_scheme_power_add_1_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_2_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_3_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_4_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_5_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_6_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_7_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_8_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_9_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_10_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_11_modifier
-		has_artifact_modifier = artifact_hostile_scheme_power_add_12_modifier
+		# hostile_scheme_phase_duration_add
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_1_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_2_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_3_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_4_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_5_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_6_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_7_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_8_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_9_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_10_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_11_modifier
+		has_artifact_modifier = artifact_hostile_scheme_phase_duration_add_12_modifier
 
-		# personal_scheme_power_add
-		has_artifact_modifier = artifact_personal_scheme_power_add_1_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_2_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_3_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_4_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_5_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_6_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_7_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_8_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_9_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_10_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_11_modifier
-		has_artifact_modifier = artifact_personal_scheme_power_add_12_modifier
+		# personal_scheme_phase_duration_add
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_1_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_2_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_3_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_4_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_5_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_6_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_7_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_8_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_9_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_10_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_11_modifier
+		has_artifact_modifier = artifact_personal_scheme_phase_duration_add_12_modifier
 	}
 }
 
 at_has_artifact_seduce_scheme_power_modifier = {
 	OR = {
-		# seduce_scheme_power_mult
-		has_artifact_modifier = artifact_seduce_scheme_power_mult_1_modifier
+		# seduce_scheme_phase_duration_mult
+		has_artifact_modifier = artifact_seduce_scheme_phase_duration_mult_1_modifier
 		#AGOT
 		has_artifact_modifier = fox_wedding_cloak_modifier
 
-		# seduce_scheme_power_add
-		has_artifact_modifier = artifact_seduce_scheme_power_add_1_modifier
-		has_artifact_modifier = artifact_seduce_scheme_power_add_2_modifier
-		has_artifact_modifier = artifact_seduce_scheme_power_add_3_modifier
-		has_artifact_modifier = artifact_seduce_scheme_power_add_4_modifier
+		# seduce_scheme_phase_duration_add
+		has_artifact_modifier = artifact_seduce_scheme_phase_duration_add_1_modifier
+		has_artifact_modifier = artifact_seduce_scheme_phase_duration_add_2_modifier
+		has_artifact_modifier = artifact_seduce_scheme_phase_duration_add_3_modifier
+		has_artifact_modifier = artifact_seduce_scheme_phase_duration_add_4_modifier
 		#AGOT
 		has_artifact_modifier = bittersteel_skull_modifier
 	}
@@ -1184,45 +1235,53 @@ at_has_artifact_seduce_scheme_power_modifier = {
 
 at_has_artifact_courting_scheme_power_modifier = {
 	OR = {
-		# courting_scheme_power_add
-		has_artifact_modifier = artifact_courting_scheme_power_add_1_modifier
-		has_artifact_modifier = artifact_courting_scheme_power_add_2_modifier
-		has_artifact_modifier = artifact_courting_scheme_power_add_3_modifier
-		has_artifact_modifier = artifact_courting_scheme_power_add_4_modifier
-
-		# courting_scheme_power_mult
+		# courting_scheme_phase_duration_add
+		has_artifact_modifier = artifact_courting_scheme_phase_duration_add_1_modifier
+		has_artifact_modifier = artifact_courting_scheme_phase_duration_add_2_modifier
+		has_artifact_modifier = artifact_courting_scheme_phase_duration_add_3_modifier
+		has_artifact_modifier = artifact_courting_scheme_phase_duration_add_4_modifier
 	}
 }
 
 at_has_artifact_befriend_scheme_power_modifier = {
 	OR = {
-		# befriend_scheme_power_add
-		has_artifact_modifier = artifact_befriend_scheme_power_add_1_modifier
-		has_artifact_modifier = artifact_befriend_scheme_power_add_2_modifier
-		has_artifact_modifier = artifact_befriend_scheme_power_add_3_modifier
-		has_artifact_modifier = artifact_befriend_scheme_power_add_4_modifier
+		# befriend_scheme_phase_duration_add
+		has_artifact_modifier = artifact_befriend_scheme_phase_duration_add_1_modifier
+		has_artifact_modifier = artifact_befriend_scheme_phase_duration_add_2_modifier
+		has_artifact_modifier = artifact_befriend_scheme_phase_duration_add_3_modifier
+		has_artifact_modifier = artifact_befriend_scheme_phase_duration_add_4_modifier
 	}
 }
 
 at_has_artifact_learn_language_scheme_power_modifier = {
 	OR = {
-		# learn_language_scheme_power_add
-		has_artifact_modifier = artifact_learn_language_scheme_power_add_1_modifier
-		has_artifact_modifier = artifact_learn_language_scheme_power_add_2_modifier
-		has_artifact_modifier = artifact_learn_language_scheme_power_add_3_modifier
-		has_artifact_modifier = artifact_learn_language_scheme_power_add_4_modifier
+		# learn_language_scheme_phase_duration_add
+		has_artifact_modifier = artifact_learn_language_scheme_phase_duration_add_1_modifier
+		has_artifact_modifier = artifact_learn_language_scheme_phase_duration_add_2_modifier
+		has_artifact_modifier = artifact_learn_language_scheme_phase_duration_add_3_modifier
+		has_artifact_modifier = artifact_learn_language_scheme_phase_duration_add_4_modifier
 	}
 }
 
 at_has_artifact_hostile_scheme_resistance_modifier = {
 	OR = {
-		# hostile_scheme_resistance_add
+		# enemy_hostile_scheme_phase_duration_add
 		has_artifact_modifier = artifact_scheme_resistance_add_1_modifier
 		has_artifact_modifier = artifact_scheme_resistance_add_2_modifier
 	}
 }
 
 # Lifestyle XP
+
+at_has_artifact_lifestyle_xp_modifier = {
+	OR = {
+		# monthly_lifestyle_xp_gain_mult
+		has_artifact_modifier = artifact_monthly_lifestyle_xp_1_modifier
+		has_artifact_modifier = artifact_monthly_lifestyle_xp_2_modifier
+		has_artifact_modifier = artifact_monthly_lifestyle_xp_3_modifier
+		has_artifact_modifier = artifact_monthly_lifestyle_xp_4_modifier
+	}
+}
 
 at_has_artifact_diplomacy_lifestyle_xp_modifier = {
 	OR = {
@@ -1244,7 +1303,7 @@ at_has_artifact_martial_lifestyle_xp_modifier = {
 		has_artifact_modifier = artifact_monthly_martial_lifestyle_xp_2_modifier
 		has_artifact_modifier = artifact_monthly_martial_lifestyle_xp_3_modifier
 		has_artifact_modifier = artifact_monthly_martial_lifestyle_xp_4_modifier
-		has_artifact_modifier = artifact_monthly_martial_lifestyle_xp_1_negative_modifier
+		#has_artifact_modifier = artifact_monthly_martial_lifestyle_xp_1_negative_modifier
 		#AGOT
 		has_artifact_modifier = vs_dawn_modifier
 		has_artifact_modifier = vs_stalwart_modifier
@@ -1348,6 +1407,8 @@ at_has_artifact_martial_modifier = {
 		has_artifact_modifier = westerosi_valyrian_crown2_modifier
 		has_artifact_modifier = lucerys_gun_modifier
 		has_artifact_modifier = norvoshi_bear_carving_modifier
+		has_artifact_modifier = crown_of_first_men_modifier
+		has_artifact_modifier = swann_crown_modifier
 
 		# martial_per_stress_level
 
@@ -1418,6 +1479,7 @@ at_has_artifact_learning_modifier = {
 		has_artifact_modifier = oily_black_stone_modifier
 		has_artifact_modifier = glass_candle_modifier
 		has_artifact_modifier = glass_candle_modifier_higher
+		has_artifact_modifier = giants_tooth_modifier
 
 		# learning_per_stress_level
 		has_artifact_modifier = artifact_learning_per_stress_level_2_modifier
@@ -1458,6 +1520,7 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = blessed_artifact_modifier
 		has_artifact_modifier = artifact_duel_weapon_3_modifier
 		has_artifact_modifier = artifact_duel_weapon_4_modifier
+		has_artifact_modifier = artifact_durable_materials_02
 		#AGOT VS
 		has_artifact_modifier = vs_blackfyre_modifier
 		has_artifact_modifier = vs_brightroar_modifier
@@ -1516,6 +1579,8 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = kingsguard_armour_modifier
 		has_artifact_modifier = lucerys_gun_modifier
 		has_artifact_modifier = dothraki_bow_modifier
+		has_artifact_modifier = redbeard_axe_modifier
+		has_artifact_modifier = skinchangers_second_pelt_modifier
 
 		# prowess_per_piety_level
 		#AGOT
@@ -1556,6 +1621,7 @@ at_has_artifact_knights_modifier = {
 		has_artifact_modifier = artifact_knight_effectiveness_11_modifier
 		has_artifact_modifier = artifact_knight_effectiveness_12_modifier
 		#has_artifact_modifier = artifact_fake_papal_tiara_modifier
+		has_artifact_modifier = artifact_armor_knight_of_the_swan_artifact_modifier
 		#AGOT
 		has_artifact_modifier = vs_remige_modifier
 	}
@@ -1630,6 +1696,7 @@ at_has_artifact_hard_casualty_modifier_modifier = {
 		#AGOT
 		has_artifact_modifier = vs_adders_fang_modifier
 		has_artifact_modifier = lucerys_gun_modifier
+		has_artifact_modifier = skinchangers_second_pelt_modifier
 
 		# hard_casualty_modifier
 		has_artifact_modifier = artifact_hard_casualty_modifier_1_modifier
@@ -1720,6 +1787,7 @@ at_has_artifact_advantage_modifier = {
 		has_artifact_modifier = blessed_artifact_modifier
 		#AGOT
 		has_artifact_modifier = dorne_crown_modifier
+		has_artifact_modifier = dornish_crown_modifier
 
 		# attacker_advantage
 		#AGOT
@@ -1837,17 +1905,27 @@ at_has_artifact_epidemic_resistance_modifier = {
 		# epidemic_resistance
 		has_artifact_modifier = artifact_epidemic_resistance_1_modifier
 		#has_artifact_modifier = artifact_epidemic_resistance_2_modifier
-		#has_artifact_modifier = artifact_epidemic_resistance_3_modifier
+		has_artifact_modifier = artifact_epidemic_resistance_3_modifier
 		has_artifact_modifier = artifact_epidemic_resistance_4_modifier
-		#has_artifact_modifier = artifact_epidemic_resistance_5_modifier
+		has_artifact_modifier = artifact_epidemic_resistance_5_modifier
 		#has_artifact_modifier = artifact_epidemic_resistance_6_modifier
 		has_artifact_modifier = artifact_epidemic_resistance_7_modifier
 	}
 }
 
-at_has_artifact_legitimacy_modifier = { # TODO
+at_has_artifact_legitimacy_modifier = {
 	OR = {
 		# legitimacy_gain_mult
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_1_modifier
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_2_modifier
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_3_modifier
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_4_modifier
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_5_modifier
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_6_modifier
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_7_modifier
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_8_modifier
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_9_modifier
+		#has_artifact_modifier = artifact_legitimacy_gain_mult_10_modifier
 		#AGOT
 		has_artifact_modifier = iron_throne_modifier
 		has_artifact_modifier = seastone_chair_modifier
@@ -1855,5 +1933,22 @@ at_has_artifact_legitimacy_modifier = { # TODO
 		has_artifact_modifier = ruined_oakenseat_modifier
 		has_artifact_modifier = restored_oakenseat_modifier
 		has_artifact_modifier = painted_table_modifier
+		has_artifact_modifier = redbeard_axe_modifier
 	}
+}
+
+# RtP
+
+at_has_artifact_travel_modifier = {
+	OR = {
+		# character_travel_speed_mult
+		# character_travel_safety_mult
+		# provisions_capacity_mult
+		# travel_companion_opinion
+		has_artifact_modifier = artifact_guide_map_modifier
+	}
+}
+
+at_has_artifact_influence_modifier = {
+	always = no
 }
