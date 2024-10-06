@@ -1,6 +1,6 @@
 This is an [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962238514]Search & Trade Artifacts[/url] compatibility patch for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962333032]A Game of Thrones[/url]. For an overview of features and other changes, see the [url=https://github.com/pharaox/artifact_trade/blob/main/README.md]Search & Trade Artifacts README[/url].
 
-The latest version is compatible with CK3 1.12.x, STA 0.9.x and AGOT 0.3.x.
+The latest version is compatible with CK3 1.13.x, STA 0.10.x and AGOT 0.3.x.
 
 Load order:
 [list]
