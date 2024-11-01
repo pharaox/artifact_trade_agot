@@ -1,0 +1,13 @@
+﻿vls_decision_slot_1_is_shown_trigger = {
+	has_game_rule = at_improved_vls_decision_enabled
+	location ?= {
+		OR = {
+			has_holding = no
+			has_holding_type = tribal_holding
+			has_holding_type = church_holding
+			has_holding_type = castle_holding
+			has_holding_type = city_holding
+			has_holding_type = monastery_holding
+		}
+	}
+}

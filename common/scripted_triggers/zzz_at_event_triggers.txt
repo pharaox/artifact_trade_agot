@@ -1,0 +1,60 @@
+﻿at_has_illness_or_wounds_trigger = {
+	OR = {
+		has_treatable_disease_trigger = yes
+		has_trait = wounded_1
+		has_wounds_trigger = yes
+	}
+	#AGOT ADDED
+	is_human = yes
+}
+
+at_is_constantinople_unique_location_trigger = {
+	always = no
+}
+
+at_is_europe_like_location_trigger = {
+	geographical_region = world_westeros
+}
+
+at_is_scandinavia_like_location_trigger = {
+	geographical_region = world_westeros_north_of_the_twins
+}
+
+at_is_britannia_like_location_trigger = {
+	always = no
+}
+
+at_is_iberia_like_location_trigger = {
+	always = no
+}
+
+at_is_middle_east_like_location_trigger = {
+	always = no
+}
+
+at_is_india_like_location_trigger = {
+	always = no
+}
+
+at_is_steppe_like_location_trigger = {
+	always = no
+}
+
+at_is_north_africa_like_location_trigger = {
+	always = no
+}
+
+at_is_west_africa_like_location_trigger = {
+	always = no
+}
+
+at_is_east_africa_like_location_trigger = {
+	always = no
+}
+
+at_has_church_like_holding_trigger = {
+	OR = {
+		has_holding_type = church_holding
+		has_holding_type = monastery_holding
+	}
+}
