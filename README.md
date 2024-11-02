@@ -2,7 +2,7 @@
 
 This is a [Search & Trade Artifacts](https://steamcommunity.com/sharedfiles/filedetails/?id=2962238514) compatibility patch for [A Game of Thrones](https://steamcommunity.com/sharedfiles/filedetails/?id=2962333032). For an overview of features and other changes, see the [Search & Trade Artifacts README](https://github.com/pharaox/artifact_trade/blob/main/README.md).
 
-The latest version is compatible with CK3 1.13.x, STA 0.10.x and AGOT 0.3.x.
+The latest version is compatible with CK3 1.13.x, STA 0.11.x and AGOT 0.3.x.
 
 Load order:
 
@@ -20,6 +20,7 @@ Search & Trade Artifacts is already largely compatible with most mods due to its
 * Ensures that the **Buy Artifact** and **Sell Artifact** interactions abide by certain AGOT restrictions, such as:
   * Non-humans can't be interacted with.
   * Wildlings can only interact with wildlings, and vice versa.
+* Ensures that the **Visit Holding** decision improvements properly take into account changes made by AGOT.
 
 ## AGOT Artifact Trading
 
