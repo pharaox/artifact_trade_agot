@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.2.5
+
+* Adapted to STA 0.11.1.
+
 ## Version 0.2.4
 
 * Adapted to STA 0.11.0.
