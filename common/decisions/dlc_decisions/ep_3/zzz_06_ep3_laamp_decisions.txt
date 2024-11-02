@@ -54,7 +54,7 @@ visit_local_settlement_decision = {
 	}
 
 	widget = {
-		gui = "decision_view_widget_option_list_generic"
+		gui = "vls_decision_view_widget_option_list_generic"
 		controller = decision_option_list_controller
 		decision_to_second_step_button = "SELECT_ACTION"
 		show_from_start = yes
@@ -133,7 +133,7 @@ visit_local_settlement_decision = {
 					root.location = {
 						OR = {
 							has_holding = no
-							at_has_tribal_like_holding_trigger = yes
+							has_holding_type = tribal_holding
 						}
 					}
 				}
@@ -152,7 +152,7 @@ visit_local_settlement_decision = {
 			}
 			else_if = {
 				limit = {
-					root.location = { at_has_church_like_holding_trigger = yes }
+					root.location = { has_holding_type = church_holding }
 				}
 				#Add on church holding-specific effects
 				if = {
@@ -169,7 +169,7 @@ visit_local_settlement_decision = {
 			}
 			else_if = {
 				limit = {
-					root.location = { at_has_castle_like_holding_trigger = yes }
+					root.location = { has_holding_type = castle_holding }
 				}
 				#Add on castle holding-specific effects
 				if = {
@@ -186,7 +186,7 @@ visit_local_settlement_decision = {
 			}
 			else_if = {
 				limit = {
-					root.location = { at_has_city_like_holding_trigger = yes }
+					root.location = { has_holding_type = city_holding }
 				}
 				#Add on castle holding-specific effects
 				if = {
@@ -209,14 +209,20 @@ visit_local_settlement_decision = {
 				#Add on pirate den holding-specific effects
 				custom_tooltip = visit_local_settlement_pirate_den_holding_decision_tt
 			}
-
+			else_if = {
+				limit = {
+					root.location = { has_holding_type = monastery_holding }
+				}
+				#Add on monastery holding-specific effects
+				custom_tooltip = visit_local_settlement_monastery_holding_decision_tt
+			}
 			set_variable = ep3_laamp_decision_1000_is_visiting
 			trigger_event =  ep3_laamp_decision_event.1000
 
 			# Properly cleanup after ep3_laamp_decision_event.1000
 			# See https://forum.paradoxplaza.com/forum/threads/ai-landless-adventurers-are-not-visiting-settlements-if-you-switch-to-any-of-them-you-cant-as-well.1712826/
 			trigger_event = {
-				id = at_decision_events.1090
+				id = vls_decision_events.0001
 				delayed = yes
 			}
 		}
