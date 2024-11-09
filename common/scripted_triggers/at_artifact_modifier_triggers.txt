@@ -186,6 +186,13 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = swann_crown_modifier
 		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
 		has_artifact_modifier = dragon_doll_02_modifier
+		has_artifact_modifier = bloodraven_longbow_modifier
+		has_artifact_modifier = weirwood_longbow_modifier
+		has_artifact_modifier = dragonbone_longbow_modifier
+		has_artifact_modifier = high_seat_of_winter_modifier
+
+		# monthly_prestige_gain_mult
+		has_artifact_modifier = artifact_monthly_prestige_mult_1_modifier
 
 		# monthly_prestige_gain_per_dread_add
 		has_artifact_modifier = artifact_monthly_prestige_gain_per_dread_add_1_modifier
@@ -331,6 +338,7 @@ at_has_artifact_court_grandeur_modifier = {
 		has_artifact_modifier = dud_egg_modifier
 		has_artifact_modifier = painted_table_modifier
 		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
+		has_artifact_modifier = high_seat_of_winter_modifier
 	}
 }
 
@@ -474,6 +482,7 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = reachman_crown_modifier
 		has_artifact_modifier = swann_crown_modifier
 		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
+		has_artifact_modifier = high_seat_of_winter_modifier
 
 		# monthly_dynasty_prestige
 		has_artifact_modifier = artifact_monthly_prestige_add_1_modifier
@@ -543,6 +552,7 @@ at_has_artifact_dread_modifier = {
 		has_artifact_modifier = dragon_skull_modifier
 		has_artifact_modifier = dragon_horn_modifier
 		has_artifact_modifier = skinchangers_second_pelt_modifier
+		has_artifact_modifier = bloodraven_longbow_modifier
 	}
 }
 
@@ -579,6 +589,7 @@ at_has_artifact_health_modifier = {
 		#AGOT
 		has_artifact_modifier = vs_pride_modifier
 		has_artifact_modifier = giants_tooth_modifier
+		has_artifact_modifier = brewing_herbs_modifier
 	}
 }
 
@@ -592,6 +603,12 @@ at_has_artifact_stress_gain_modifier = {
 		has_artifact_modifier = artifact_stress_gain_1_penalty_modifier
 		#AGOT
 		has_artifact_modifier = iron_throne_modifier
+
+		# stress_loss_mult
+		#AGOT
+		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
+		has_artifact_modifier = weirwood_flute_modifier
+		has_artifact_modifier = brewing_herbs_modifier
 	}
 }
 
@@ -848,6 +865,9 @@ at_has_artifact_religion_opinion_modifier = {
 		has_artifact_modifier = valeman_crown_modifier
 		has_artifact_modifier = dragon_doll_02_modifier
 		has_artifact_modifier = viserra_mirror_modifier
+		has_artifact_modifier = bloodraven_longbow_modifier
+		has_artifact_modifier = weirwood_longbow_modifier
+		has_artifact_modifier = high_seat_of_winter_modifier
 	}
 }
 
@@ -875,6 +895,7 @@ at_has_artifact_culture_opinion_modifier = {
 		has_artifact_modifier = horn_of_herrock_modifier
 		has_artifact_modifier = redbeard_axe_modifier
 		has_artifact_modifier = stormlander_crown_modifier
+		has_artifact_modifier = dragonbone_longbow_modifier
 	}
 }
 
@@ -1055,6 +1076,44 @@ at_has_artifact_development_growth_modifier = {
 		has_artifact_modifier = vs_brightroar_modifier
 		has_artifact_modifier = vs_evergold_modifier
 
+		# <terrain>_development_growth
+		has_artifact_modifier = artifact_desert_development_growth_1
+		has_artifact_modifier = artifact_desert_mountains_development_growth_1
+		has_artifact_modifier = artifact_drylands_development_growth_1
+		has_artifact_modifier = artifact_mountains_development_growth_1
+		has_artifact_modifier = artifact_hills_development_growth_1
+		has_artifact_modifier = artifact_plains_development_growth_1
+		has_artifact_modifier = artifact_farmlands_development_growth_1
+		has_artifact_modifier = artifact_floodplains_development_growth_1
+		has_artifact_modifier = artifact_forest_development_growth_1
+		has_artifact_modifier = artifact_taiga_development_growth_1
+		has_artifact_modifier = artifact_oasis_development_growth_1
+		has_artifact_modifier = artifact_wetlands_development_growth_1
+		has_artifact_modifier = artifact_desert_development_growth_2
+		has_artifact_modifier = artifact_desert_mountains_development_growth_2
+		has_artifact_modifier = artifact_drylands_development_growth_2
+		has_artifact_modifier = artifact_mountains_development_growth_2
+		has_artifact_modifier = artifact_hills_development_growth_2
+		has_artifact_modifier = artifact_plains_development_growth_2
+		has_artifact_modifier = artifact_farmlands_development_growth_2
+		has_artifact_modifier = artifact_floodplains_development_growth_2
+		has_artifact_modifier = artifact_forest_development_growth_2
+		has_artifact_modifier = artifact_taiga_development_growth_2
+		has_artifact_modifier = artifact_oasis_development_growth_2
+		has_artifact_modifier = artifact_wetlands_development_growth_2
+		has_artifact_modifier = artifact_desert_development_growth_3
+		has_artifact_modifier = artifact_desert_mountains_development_growth_3
+		has_artifact_modifier = artifact_drylands_development_growth_3
+		has_artifact_modifier = artifact_mountains_development_growth_3
+		has_artifact_modifier = artifact_hills_development_growth_3
+		has_artifact_modifier = artifact_plains_development_growth_3
+		has_artifact_modifier = artifact_farmlands_development_growth_3
+		has_artifact_modifier = artifact_floodplains_development_growth_3
+		has_artifact_modifier = artifact_forest_development_growth_3
+		has_artifact_modifier = artifact_taiga_development_growth_3
+		has_artifact_modifier = artifact_oasis_development_growth_3
+		has_artifact_modifier = artifact_wetlands_development_growth_3
+
 		# *_development_growth_factor
 		# historical
 		has_artifact_modifier = afarganyu_modifier
@@ -1157,6 +1216,7 @@ at_has_artifact_scheme_success_chance_modifier = {
 		has_artifact_modifier = artifact_owned_personal_scheme_success_chance_add_12_modifier
 		#AGOT
 		has_artifact_modifier = florent_crown_modifier
+		has_artifact_modifier = weirwood_flute_modifier
 
 		# enemy_hostile_scheme_success_chance_add
 
@@ -1181,6 +1241,7 @@ at_has_artifact_scheme_secrecy_modifier = {
 		has_artifact_modifier = artifact_owned_scheme_secrecy_add_12_modifier
 		#AGOT
 		has_artifact_modifier = eggs_boot_modifier
+		has_artifact_modifier = bloodraven_longbow_modifier
 	}
 }
 
@@ -1379,6 +1440,8 @@ at_has_artifact_diplomacy_modifier = {
 
 		# diplomacy_per_prestige_level
 		has_artifact_modifier = artifact_diplomacy_per_prestige_level_modifier
+		#AGOT
+		has_artifact_modifier = weirwood_flute_modifier
 
 		# diplomacy_per_piety_level
 		#AGOT
@@ -1581,6 +1644,9 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = dothraki_bow_modifier
 		has_artifact_modifier = redbeard_axe_modifier
 		has_artifact_modifier = skinchangers_second_pelt_modifier
+		has_artifact_modifier = bloodraven_longbow_modifier
+		has_artifact_modifier = weirwood_longbow_modifier
+		has_artifact_modifier = dragonbone_longbow_modifier
 
 		# prowess_per_piety_level
 		#AGOT
@@ -1868,6 +1934,8 @@ at_has_artifact_advantage_modifier = {
 		has_artifact_modifier = vs_iron_will_modifier
 
 		# winter_advantage
+		has_artifact_modifier = artifact_winter_movement_speed
+		has_artifact_modifier = artifact_winter_advantage
 		#AGOT
 		has_artifact_modifier = crown_of_true_winter_modifier
 	}
@@ -1934,6 +2002,7 @@ at_has_artifact_legitimacy_modifier = {
 		has_artifact_modifier = restored_oakenseat_modifier
 		has_artifact_modifier = painted_table_modifier
 		has_artifact_modifier = redbeard_axe_modifier
+		has_artifact_modifier = high_seat_of_winter_modifier
 	}
 }
 
@@ -1941,6 +2010,26 @@ at_has_artifact_legitimacy_modifier = {
 
 at_has_artifact_travel_modifier = {
 	OR = {
+		# character_travel_safety
+		# character_travel_speed
+		has_artifact_modifier = artifact_travel_safety_1
+		has_artifact_modifier = artifact_travel_safety_2
+		has_artifact_modifier = character_travel_speed_1
+		has_artifact_modifier = character_travel_speed_2
+
+		# <terrain>_travel_danger
+		has_artifact_modifier = artifact_jungle_danger_travel_modifier
+		has_artifact_modifier = artifact_desert_danger_travel_modifier
+		has_artifact_modifier = artifact_drylands_danger_travel_modifier
+		has_artifact_modifier = artifact_desert_mountains_danger_travel_modifier
+		has_artifact_modifier = artifact_wetlands_danger_travel_modifier
+		has_artifact_modifier = artifact_steppe_danger_travel_modifier
+		has_artifact_modifier = artifact_floodplains_danger_travel_modifier
+		has_artifact_modifier = artifact_hills_danger_travel_modifier
+		has_artifact_modifier = artifact_mountains_danger_travel_modifier
+		has_artifact_modifier = artifact_forest_danger_travel_modifier
+		has_artifact_modifier = artifact_taiga_danger_travel_modifier
+
 		# character_travel_speed_mult
 		# character_travel_safety_mult
 		# provisions_capacity_mult
