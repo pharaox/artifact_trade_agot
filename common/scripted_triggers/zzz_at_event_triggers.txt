@@ -1,0 +1,10 @@
+﻿at_is_unsellable_artifact_trigger = {
+	OR = {
+		has_variable = banner_house
+		has_variable = banner_dynasty
+		has_variable = 1025_treasure_map
+		#AGOT ADDED
+		has_variable = dragon_egg
+		has_variable = valyrian_steel
+	}
+}
