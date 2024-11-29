@@ -58,3 +58,7 @@ vls_has_church_like_holding_trigger = {
 		has_holding_type = monastery_holding
 	}
 }
+
+vls_has_other_holding_trigger = {
+	has_holding_type = pirate_den_holding
+}
