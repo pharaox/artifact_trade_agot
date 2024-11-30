@@ -1,8 +1,13 @@
 # Changelog
 
+## Version 0.2.7
+
+* Adapted to AGOT 0.3.5.1 and STA 0.12.1.
+* Landless adventurers can now visit also pirate den holdings to trade artifacts.
+
 ## Version 0.2.6
 
-* Adapted to AGOT 0.3.5.
+* Adapted to AGOT 0.3.5 and STA 0.12.0.
 
 ## Version 0.2.5
 
