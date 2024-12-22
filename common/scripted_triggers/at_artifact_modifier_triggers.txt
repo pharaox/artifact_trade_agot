@@ -192,6 +192,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = weirwood_longbow_modifier
 		has_artifact_modifier = dragonbone_longbow_modifier
 		has_artifact_modifier = high_seat_of_winter_modifier
+		has_artifact_modifier = maekar_mace_modifier
 
 		# monthly_prestige_gain_mult
 		has_artifact_modifier = artifact_monthly_prestige_mult_1_modifier
@@ -1653,6 +1654,7 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = bloodraven_longbow_modifier
 		has_artifact_modifier = weirwood_longbow_modifier
 		has_artifact_modifier = dragonbone_longbow_modifier
+		has_artifact_modifier = maekar_mace_modifier
 
 		# prowess_per_piety_level
 		#AGOT
