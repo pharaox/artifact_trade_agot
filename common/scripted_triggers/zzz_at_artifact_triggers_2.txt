@@ -67,3 +67,35 @@ at_has_artifact_relic_flag_religion_trigger = {
 	exists = $ARTIFACT$
 	always = no
 }
+
+# TODO Move to AGOT
+at_artifact_can_be_sold_trigger = {
+	NOT = { has_variable = agot_artifact_cannot_gift }
+	agot_artifact_can_take = yes
+	trigger_if = {
+		limit = {
+			artifact_owner = { is_ai = yes }
+		}
+		# AI sellers are not allowed to sell special AGOT artifacts
+		NOR = {
+			agot_is_unique_throne_artifact = yes
+			agot_is_historical_unique_artifact = yes
+			agot_is_valyrian_steel_artifact = yes
+			agot_is_dragon_egg_artifact = yes
+		}
+	}
+	trigger_else = {
+		# Player sellers are not allowed to sell unique AGOT thrones
+		NOR = {
+			agot_is_unique_throne_artifact = yes
+			trigger_if = {
+				limit = {
+					has_variable = dragon_egg
+				}
+				NOT = {
+					has_variable = dud_egg
+				}
+			}
+		}
+	}
+}

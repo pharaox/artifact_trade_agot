@@ -6,5 +6,7 @@
 		#AGOT ADDED
 		has_variable = dragon_egg
 		has_variable = valyrian_steel
+		has_variable = agot_artifact_cannot_gift
+		agot_artifact_can_take = no
 	}
 }

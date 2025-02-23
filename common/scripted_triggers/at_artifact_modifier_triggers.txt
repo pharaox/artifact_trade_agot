@@ -82,6 +82,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = vs_generic_firstman_modifier
 		has_artifact_modifier = vs_generic_valyrian_modifier
 		has_artifact_modifier = vs_dark_moon_modifier
+		has_artifact_modifier = vs_skinpeeler_modifier
 		#AGOT Other
 		has_artifact_modifier = aegon_i_crown_modifier
 		has_artifact_modifier = aenys_crown_modifier
@@ -194,6 +195,18 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = dragonbone_longbow_modifier
 		has_artifact_modifier = high_seat_of_winter_modifier
 		has_artifact_modifier = maekar_mace_modifier
+		has_artifact_modifier = crown_of_the_andals_modifier
+		has_artifact_modifier = crown_of_westerosi_diadem_modifier
+		has_artifact_modifier = crown_of_darklyn_modifier
+		has_artifact_modifier = crown_of_mudd_coa_modifier
+		has_artifact_modifier = crown_of_hearts_home_modifier
+		has_artifact_modifier = crown_of_dondarrion_modifier
+		has_artifact_modifier = crown_of_hellholt_modifier
+		has_artifact_modifier = crown_of_castamere_modifier
+		has_artifact_modifier = crown_of_deep_den_modifier
+		has_artifact_modifier = crown_of_the_banefort_modifier
+		has_artifact_modifier = crown_of_crakehall_modifier
+		has_artifact_modifier = weirwood_throne_modifier
 
 		# monthly_prestige_gain_mult
 		has_artifact_modifier = artifact_monthly_prestige_mult_1_modifier
@@ -343,6 +356,7 @@ at_has_artifact_court_grandeur_modifier = {
 		has_artifact_modifier = painted_table_modifier
 		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
 		has_artifact_modifier = high_seat_of_winter_modifier
+		has_artifact_modifier = weirwood_throne_modifier
 	}
 }
 
@@ -404,6 +418,7 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = vs_generic_firstman_modifier
 		has_artifact_modifier = vs_generic_valyrian_modifier
 		has_artifact_modifier = vs_dark_moon_modifier
+		has_artifact_modifier = vs_skinpeeler_modifier
 		#AGOT Other
 		has_artifact_modifier = aegon_i_crown_modifier
 		has_artifact_modifier = aenys_crown_modifier
@@ -490,6 +505,19 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = swann_crown_modifier
 		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
 		has_artifact_modifier = high_seat_of_winter_modifier
+		has_artifact_modifier = crown_of_the_andals_modifier
+		has_artifact_modifier = crown_of_westerosi_diadem_modifier
+		has_artifact_modifier = crown_of_darklyn_modifier
+		has_artifact_modifier = crown_of_mudd_coa_modifier
+		has_artifact_modifier = crown_of_bear_island_modifier
+		has_artifact_modifier = crown_of_hearts_home_modifier
+		has_artifact_modifier = crown_of_dondarrion_modifier
+		has_artifact_modifier = crown_of_hellholt_modifier
+		has_artifact_modifier = crown_of_castamere_modifier
+		has_artifact_modifier = crown_of_deep_den_modifier
+		has_artifact_modifier = crown_of_the_banefort_modifier
+		has_artifact_modifier = crown_of_crakehall_modifier
+		has_artifact_modifier = weirwood_throne_modifier
 
 		# monthly_dynasty_prestige
 		has_artifact_modifier = artifact_monthly_prestige_add_1_modifier
@@ -522,6 +550,9 @@ at_has_artifact_tyranny_modifier = {
 
 		# tyranny_gain_mult
 		has_artifact_modifier = artifact_tyranny_gain_mult_1_modifier
+		#AGOT
+		has_artifact_modifier = crown_of_hellholt_modifier
+		has_artifact_modifier = crown_of_the_banefort_modifier
 	}
 }
 
@@ -562,6 +593,9 @@ at_has_artifact_dread_modifier = {
 		has_artifact_modifier = dragon_horn_modifier
 		has_artifact_modifier = skinchangers_second_pelt_modifier
 		has_artifact_modifier = bloodraven_longbow_modifier
+		has_artifact_modifier = vs_skinpeeler_modifier
+		has_artifact_modifier = crown_of_hellholt_modifier
+		has_artifact_modifier = crown_of_the_banefort_modifier
 	}
 }
 
@@ -765,6 +799,7 @@ at_has_artifact_attraction_opinion_modifier = {
 		has_artifact_modifier = moons_rod_modifier
 		has_artifact_modifier = myrish_lace_modifier
 		has_artifact_modifier = viserra_mirror_modifier
+		has_artifact_modifier = crown_of_hearts_home_modifier
 	}
 }
 
@@ -877,6 +912,7 @@ at_has_artifact_religion_opinion_modifier = {
 		has_artifact_modifier = bloodraven_longbow_modifier
 		has_artifact_modifier = weirwood_longbow_modifier
 		has_artifact_modifier = high_seat_of_winter_modifier
+		has_artifact_modifier = weirwood_throne_modifier
 	}
 }
 
@@ -905,6 +941,7 @@ at_has_artifact_culture_opinion_modifier = {
 		has_artifact_modifier = redbeard_axe_modifier
 		has_artifact_modifier = stormlander_crown_modifier
 		has_artifact_modifier = dragonbone_longbow_modifier
+		has_artifact_modifier = crown_of_dondarrion_modifier
 	}
 }
 
@@ -1011,6 +1048,8 @@ at_has_artifact_vassal_tax_contribution_modifier = {
 		# vassal_tax_contribution_mult
 		has_artifact_modifier = artifact_vassal_tax_contribution_mult_2_modifier
 		has_artifact_modifier = artifact_vassal_tax_contribution_mult_4_modifier
+		#AGOT
+		has_artifact_modifier = crown_of_deep_den_modifier
 
 		# happy_powerful_vassal_tax_contribution_mult
 		has_artifact_modifier = artifact_happy_powerful_vassal_tax_contribution_mult_1_modifier
@@ -1130,6 +1169,8 @@ at_has_artifact_development_growth_modifier = {
 		has_artifact_modifier = manderly_crown_modifier
 
 		# character_capital_county_monthly_development_growth_add
+		#AGOT
+		has_artifact_modifier = crown_of_castamere_modifier
 	}
 }
 
@@ -1446,6 +1487,7 @@ at_has_artifact_diplomacy_modifier = {
 		has_artifact_modifier = westerosi_valyrian_crown1_modifier
 		has_artifact_modifier = harp_of_the_bard_modifier
 		has_artifact_modifier = eggs_boot_modifier
+		has_artifact_modifier = crown_of_deep_den_modifier
 
 		# diplomacy_per_prestige_level
 		has_artifact_modifier = artifact_diplomacy_per_prestige_level_modifier
@@ -1481,6 +1523,9 @@ at_has_artifact_martial_modifier = {
 		has_artifact_modifier = norvoshi_bear_carving_modifier
 		has_artifact_modifier = crown_of_first_men_modifier
 		has_artifact_modifier = swann_crown_modifier
+		has_artifact_modifier = crown_of_westerosi_diadem_modifier
+		has_artifact_modifier = crown_of_mudd_coa_modifier
+		has_artifact_modifier = crown_of_crakehall_modifier
 
 		# martial_per_stress_level
 
@@ -1503,6 +1548,10 @@ at_has_artifact_stewardship_modifier = {
 		has_artifact_modifier = stannis_crown_modifier
 		has_artifact_modifier = alysannecrown_modifier
 		has_artifact_modifier = bran_set_square_modifier
+		has_artifact_modifier = crown_of_the_andals_modifier
+		has_artifact_modifier = crown_of_darklyn_modifier
+		has_artifact_modifier = crown_of_castamere_modifier
+		has_artifact_modifier = crown_of_deep_den_modifier
 
 		# stewardship_per_stress_level
 		has_artifact_modifier = artifact_stewardship_per_stress_level_1_modifier
@@ -1643,6 +1692,7 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = vs_generic_andal_modifier
 		has_artifact_modifier = vs_generic_firstman_modifier
 		has_artifact_modifier = vs_generic_valyrian_modifier
+		has_artifact_modifier = vs_skinpeeler_modifier
 		#AGOT Other
 		has_artifact_modifier = daemonblackfyre_crown_modifier
 		has_artifact_modifier = valyrian_steel_armor_modifier
@@ -1662,6 +1712,7 @@ at_has_artifact_prowess_modifier = {
 		# prowess_per_piety_level
 		#AGOT
 		has_artifact_modifier = blackwood_crown_modifier
+		has_artifact_modifier = crown_of_hearts_home_modifier
 
 		# negate_prowess_penalty_add
 		has_artifact_modifier = artifact_negate_prowess_penalty_add_1_modifier
@@ -1683,6 +1734,8 @@ at_has_artifact_knights_modifier = {
 		has_artifact_modifier = artifact_knight_limit_1_modifier
 		has_artifact_modifier = artifact_knight_limit_2_modifier
 		#has_artifact_modifier = artifact_fake_papal_tiara_modifier
+		#AGOT
+		has_artifact_modifier = crown_of_dondarrion_modifier
 
 		# knight_effectiveness
 		has_artifact_modifier = artifact_knight_effectiveness_1_modifier
@@ -1701,6 +1754,8 @@ at_has_artifact_knights_modifier = {
 		has_artifact_modifier = artifact_armor_knight_of_the_swan_artifact_modifier
 		#AGOT
 		has_artifact_modifier = vs_remige_modifier
+		has_artifact_modifier = crown_of_bear_island_modifier
+		has_artifact_modifier = crown_of_dondarrion_modifier
 	}
 }
 
@@ -2014,6 +2069,7 @@ at_has_artifact_legitimacy_modifier = {
 		has_artifact_modifier = painted_table_modifier
 		has_artifact_modifier = redbeard_axe_modifier
 		has_artifact_modifier = high_seat_of_winter_modifier
+		has_artifact_modifier = weirwood_throne_modifier
 	}
 }
 

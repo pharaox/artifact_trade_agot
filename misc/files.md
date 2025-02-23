@@ -10,6 +10,8 @@
   * `visit_settlement_decision`
 * `common/scripted_effects/00_ep1_artifact_effects.txt`
   * `destroy_artifact_aniconist_effect`
+* `common/scripted_triggers/zzz_at_artifact_triggers.txt`
+  * Entire file
 * `events/dlc/ep3/ep3_laamp_decision_events.txt`
   * `ep3_laamp_decision_event.1000`
   * `ep3_laamp_decision_event.1001`
