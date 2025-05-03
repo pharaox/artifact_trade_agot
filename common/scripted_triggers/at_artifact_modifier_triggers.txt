@@ -83,6 +83,8 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = vs_generic_valyrian_modifier
 		has_artifact_modifier = vs_dark_moon_modifier
 		has_artifact_modifier = vs_skinpeeler_modifier
+		has_artifact_modifier = vs_iron_price_modifier
+		has_artifact_modifier = vs_unkindness_modifier
 		#AGOT Other
 		has_artifact_modifier = aegon_i_crown_modifier
 		has_artifact_modifier = aenys_crown_modifier
@@ -150,9 +152,9 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = crown_of_hugor_modifier
 		has_artifact_modifier = daemonblackfyre_crown_modifier
 		has_artifact_modifier = valyrian_steel_armor_modifier
-		has_artifact_modifier = maelys_armour_modifier
-		has_artifact_modifier = rhaegars_armour_modifier
-		has_artifact_modifier = roberts_armour_modifier
+		has_artifact_modifier = maelys_armor_modifier
+		has_artifact_modifier = rhaegars_armor_modifier
+		has_artifact_modifier = roberts_armor_modifier
 		has_artifact_modifier = the_white_book_modifier
 		has_artifact_modifier = dragon_egg_modifier
 		has_artifact_modifier = queen_of_love_and_beauty_artifact_modifier
@@ -207,6 +209,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = crown_of_the_banefort_modifier
 		has_artifact_modifier = crown_of_crakehall_modifier
 		has_artifact_modifier = weirwood_throne_modifier
+		has_artifact_modifier = decorated_dragon_plate_armor_modifier
 
 		# monthly_prestige_gain_mult
 		has_artifact_modifier = artifact_monthly_prestige_mult_1_modifier
@@ -216,6 +219,8 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = artifact_monthly_prestige_gain_per_dread_add_2_modifier
 		has_artifact_modifier = artifact_monthly_prestige_gain_per_dread_add_3_modifier
 		has_artifact_modifier = artifact_monthly_prestige_gain_per_dread_add_4_modifier
+
+		# monthly_prestige_gain_per_dread_mult
 
 		# monthly_prestige_gain_per_knight_add
 		has_artifact_modifier = artifact_monthly_prestige_gain_per_knight_add_1_modifier
@@ -419,6 +424,8 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = vs_generic_valyrian_modifier
 		has_artifact_modifier = vs_dark_moon_modifier
 		has_artifact_modifier = vs_skinpeeler_modifier
+		has_artifact_modifier = vs_iron_price_modifier
+		has_artifact_modifier = vs_unkindness_modifier
 		#AGOT Other
 		has_artifact_modifier = aegon_i_crown_modifier
 		has_artifact_modifier = aenys_crown_modifier
@@ -476,8 +483,8 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = crown_of_hugor_modifier
 		has_artifact_modifier = daemonblackfyre_crown_modifier
 		has_artifact_modifier = valyrian_steel_armor_modifier
-		has_artifact_modifier = maelys_armour_modifier
-		has_artifact_modifier = kingsguard_armour_modifier
+		has_artifact_modifier = maelys_armor_modifier
+		has_artifact_modifier = kingsguard_armor_modifier
 		has_artifact_modifier = the_white_book_modifier
 		has_artifact_modifier = dragon_egg_modifier
 		has_artifact_modifier = uller_skull_modifier
@@ -643,7 +650,11 @@ at_has_artifact_stress_gain_modifier = {
 		has_artifact_modifier = artifact_stress_gain_2_modifier
 		has_artifact_modifier = artifact_stress_gain_3_modifier
 		has_artifact_modifier = artifact_stress_gain_4_modifier
+		#has_artifact_modifier = artifact_stress_gain_5_modifier
+		#has_artifact_modifier = artifact_stress_gain_6_modifier
+		has_artifact_modifier = artifact_stress_gain_7_modifier
 		has_artifact_modifier = artifact_stress_gain_1_penalty_modifier
+		has_artifact_modifier = artifact_magic_amulet_modifier
 		#AGOT
 		has_artifact_modifier = iron_throne_modifier
 
@@ -708,6 +719,12 @@ at_has_artifact_vassal_opinion_modifier = {
 		has_artifact_modifier = artifact_zealot_vassal_opinion_2_modifier
 		has_artifact_modifier = artifact_zealot_vassal_opinion_3_modifier
 		has_artifact_modifier = artifact_zealot_vassal_opinion_4_modifier
+
+		# belligerent_opinion
+		has_artifact_modifier = artifact_belligerent_vassal_opinion_1_modifier
+		has_artifact_modifier = artifact_belligerent_vassal_opinion_2_modifier
+		has_artifact_modifier = artifact_belligerent_vassal_opinion_3_modifier
+		has_artifact_modifier = artifact_belligerent_vassal_opinion_4_modifier
 	}
 }
 
@@ -772,8 +789,8 @@ at_has_artifact_dynasty_opinion_modifier = {
 		has_artifact_modifier = vs_lamentation_modifier
 		has_artifact_modifier = alysannecrown_modifier
 		has_artifact_modifier = daemonblackfyre_crown_modifier
-		has_artifact_modifier = rhaegars_armour_modifier
-		has_artifact_modifier = roberts_armour_modifier
+		has_artifact_modifier = rhaegars_armor_modifier
+		has_artifact_modifier = roberts_armor_modifier
 		has_artifact_modifier = seahorse_statue_modifier
 	}
 }
@@ -794,7 +811,7 @@ at_has_artifact_attraction_opinion_modifier = {
 		has_artifact_modifier = crown_of_jeyne_westerling_modifier
 		has_artifact_modifier = crown_of_winter_roses_modifier
 		has_artifact_modifier = crown_of_true_winter_modifier
-		has_artifact_modifier = rhaegars_armour_modifier
+		has_artifact_modifier = rhaegars_armor_modifier
 		has_artifact_modifier = queen_of_love_and_beauty_artifact_modifier
 		has_artifact_modifier = moons_rod_modifier
 		has_artifact_modifier = myrish_lace_modifier
@@ -1084,6 +1101,12 @@ at_has_artifact_vassal_tax_contribution_modifier = {
 		has_artifact_modifier = artifact_zealot_tax_contribution_mult_2_modifier
 		has_artifact_modifier = artifact_zealot_tax_contribution_mult_3_modifier
 		has_artifact_modifier = artifact_zealot_tax_contribution_mult_4_modifier
+
+		# belligerent_tax_contribution_mult
+		has_artifact_modifier = artifact_belligerent_tax_contribution_mult_1_modifier
+		has_artifact_modifier = artifact_belligerent_tax_contribution_mult_2_modifier
+		has_artifact_modifier = artifact_belligerent_tax_contribution_mult_2_modifier
+		has_artifact_modifier = artifact_belligerent_tax_contribution_mult_2_modifier
 	}
 }
 
@@ -1102,6 +1125,12 @@ at_has_artifact_vassal_levy_contribution_modifier = {
 		has_artifact_modifier = artifact_zealot_levy_contribution_mult_2_modifier
 		has_artifact_modifier = artifact_zealot_levy_contribution_mult_3_modifier
 		has_artifact_modifier = artifact_zealot_levy_contribution_mult_4_modifier
+
+		# belligerent_levy_contribution_mult
+		has_artifact_modifier = artifact_belligerent_levy_contribution_mult_1_modifier
+		has_artifact_modifier = artifact_belligerent_levy_contribution_mult_2_modifier
+		has_artifact_modifier = artifact_belligerent_levy_contribution_mult_3_modifier
+		has_artifact_modifier = artifact_belligerent_levy_contribution_mult_4_modifier
 	}
 }
 
@@ -1695,17 +1724,13 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = vs_generic_firstman_modifier
 		has_artifact_modifier = vs_generic_valyrian_modifier
 		has_artifact_modifier = vs_skinpeeler_modifier
+		has_artifact_modifier = vs_iron_price_modifier
+		has_artifact_modifier = vs_unkindness_modifier
 		#AGOT Other
 		has_artifact_modifier = daemonblackfyre_crown_modifier
-		has_artifact_modifier = valyrian_steel_armor_modifier
-		has_artifact_modifier = maelys_armour_modifier
-		has_artifact_modifier = rhaegars_armour_modifier
-		has_artifact_modifier = roberts_armour_modifier
-		has_artifact_modifier = kingsguard_armour_modifier
 		has_artifact_modifier = lucerys_gun_modifier
 		has_artifact_modifier = dothraki_bow_modifier
 		has_artifact_modifier = redbeard_axe_modifier
-		has_artifact_modifier = skinchangers_second_pelt_modifier
 		has_artifact_modifier = bloodraven_longbow_modifier
 		has_artifact_modifier = weirwood_longbow_modifier
 		has_artifact_modifier = dragonbone_longbow_modifier
@@ -1725,6 +1750,14 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = artifact_negate_prowess_penalty_add_6_modifier
 		has_artifact_modifier = artifact_negate_prowess_penalty_add_7_modifier
 		has_artifact_modifier = artifact_negate_prowess_penalty_add_8_modifier
+		#AGOT Other
+		has_artifact_modifier = valyrian_steel_armor_modifier
+		has_artifact_modifier = decorated_dragon_plate_armor_modifier
+		has_artifact_modifier = maelys_armor_modifier
+		has_artifact_modifier = rhaegars_armor_modifier
+		has_artifact_modifier = roberts_armor_modifier
+		has_artifact_modifier = kingsguard_armor_modifier
+		has_artifact_modifier = skinchangers_second_pelt_modifier
 	}
 }
 
@@ -1758,6 +1791,7 @@ at_has_artifact_knights_modifier = {
 		has_artifact_modifier = vs_remige_modifier
 		has_artifact_modifier = crown_of_bear_island_modifier
 		has_artifact_modifier = crown_of_dondarrion_modifier
+		has_artifact_modifier = vs_unkindness_modifier
 	}
 }
 
@@ -1809,6 +1843,7 @@ at_has_artifact_raid_speed_modifier = {
 		has_artifact_modifier = vs_red_rain_modifier
 		has_artifact_modifier = greyjoy_crown_modifier
 		has_artifact_modifier = bittersteel_skull_modifier
+		has_artifact_modifier = vs_iron_price_modifier
 	}
 }
 
@@ -1877,6 +1912,12 @@ at_has_artifact_damage_toughness_pursuit_screen_modifier = {
 		has_artifact_modifier = artifact_archer_cavalry_screen_add_2_modifier
 		has_artifact_modifier = artifact_archer_cavalry_screen_add_3_modifier
 		has_artifact_modifier = artifact_archer_cavalry_screen_add_4_modifier
+
+		# *_damage_add
+		has_artifact_modifier = artifact_archer_cavalry_damage_add_1_modifier
+		has_artifact_modifier = artifact_archer_cavalry_damage_add_2_modifier
+		has_artifact_modifier = artifact_archer_cavalry_damage_add_3_modifier
+		has_artifact_modifier = artifact_archer_cavalry_damage_add_4_modifier
 
 		# retreat_losses
 		has_artifact_modifier = artifact_retreat_losses_1_modifier
@@ -2093,6 +2134,7 @@ at_has_artifact_travel_modifier = {
 		has_artifact_modifier = artifact_desert_mountains_danger_travel_modifier
 		has_artifact_modifier = artifact_wetlands_danger_travel_modifier
 		has_artifact_modifier = artifact_steppe_danger_travel_modifier
+		has_artifact_modifier = artifact_steppe_danger_travel_high_modifier
 		has_artifact_modifier = artifact_floodplains_danger_travel_modifier
 		has_artifact_modifier = artifact_hills_danger_travel_modifier
 		has_artifact_modifier = artifact_mountains_danger_travel_modifier
@@ -2109,4 +2151,50 @@ at_has_artifact_travel_modifier = {
 
 at_has_artifact_influence_modifier = {
 	always = no
+}
+
+at_has_artifact_fertility_growth_modifier = {
+	OR = {
+		# county_fertility_growth_mult
+		has_artifact_modifier = artifact_fertility_growth_1_modifier
+		has_artifact_modifier = artifact_fertility_growth_2_modifier
+		has_artifact_modifier = artifact_fertility_growth_3_modifier
+		has_artifact_modifier = artifact_fertility_growth_4_modifier
+		has_artifact_modifier = artifact_fertility_growth_5_modifier
+		has_artifact_modifier = artifact_fertility_growth_6_modifier
+		has_artifact_modifier = artifact_fertility_growth_7_modifier
+		has_artifact_modifier = artifact_fertility_growth_8_modifier
+		has_artifact_modifier = artifact_fertility_growth_9_modifier
+		has_artifact_modifier = artifact_fertility_growth_10_modifier
+		has_artifact_modifier = artifact_fertility_growth_11_modifier
+		has_artifact_modifier = artifact_fertility_growth_12_modifier
+	}
+}
+
+at_has_artifact_herd_gain_modifier = {
+	OR = {
+		# herd_gain_mult
+		has_artifact_modifier = artifact_herd_gain_1_modifier
+		has_artifact_modifier = artifact_herd_gain_2_modifier
+		has_artifact_modifier = artifact_herd_gain_3_modifier
+		has_artifact_modifier = artifact_herd_gain_4_modifier
+		has_artifact_modifier = artifact_herd_gain_5_modifier
+		has_artifact_modifier = artifact_herd_gain_6_modifier
+		has_artifact_modifier = artifact_herd_gain_7_modifier
+		has_artifact_modifier = artifact_herd_gain_8_modifier
+	}
+}
+
+at_has_artifact_herd_conversion_modifier = {
+	OR = {
+		# herd_conversion
+		has_artifact_modifier = artifact_herd_conversion_1_modifier
+		has_artifact_modifier = artifact_herd_conversion_2_modifier
+		has_artifact_modifier = artifact_herd_conversion_3_modifier
+		has_artifact_modifier = artifact_herd_conversion_4_modifier
+		has_artifact_modifier = artifact_herd_conversion_5_modifier
+		has_artifact_modifier = artifact_herd_conversion_6_modifier
+		has_artifact_modifier = artifact_herd_conversion_7_modifier
+		has_artifact_modifier = artifact_herd_conversion_8_modifier
+	}
 }
