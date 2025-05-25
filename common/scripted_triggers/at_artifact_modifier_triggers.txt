@@ -85,6 +85,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = vs_skinpeeler_modifier
 		has_artifact_modifier = vs_iron_price_modifier
 		has_artifact_modifier = vs_unkindness_modifier
+		has_artifact_modifier = vs_swansong_modifier
 		#AGOT Other
 		has_artifact_modifier = aegon_i_crown_modifier
 		has_artifact_modifier = aenys_crown_modifier
@@ -426,6 +427,7 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = vs_skinpeeler_modifier
 		has_artifact_modifier = vs_iron_price_modifier
 		has_artifact_modifier = vs_unkindness_modifier
+		has_artifact_modifier = vs_swansong_modifier
 		#AGOT Other
 		has_artifact_modifier = aegon_i_crown_modifier
 		has_artifact_modifier = aenys_crown_modifier
@@ -1726,6 +1728,7 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = vs_skinpeeler_modifier
 		has_artifact_modifier = vs_iron_price_modifier
 		has_artifact_modifier = vs_unkindness_modifier
+		has_artifact_modifier = vs_swansong_modifier
 		#AGOT Other
 		has_artifact_modifier = daemonblackfyre_crown_modifier
 		has_artifact_modifier = lucerys_gun_modifier
@@ -1866,6 +1869,7 @@ at_has_artifact_hard_casualty_modifier_modifier = {
 		has_artifact_modifier = vs_adders_fang_modifier
 		has_artifact_modifier = lucerys_gun_modifier
 		has_artifact_modifier = skinchangers_second_pelt_modifier
+		has_artifact_modifier = vs_swansong_modifier
 
 		# hard_casualty_modifier
 		has_artifact_modifier = artifact_hard_casualty_modifier_1_modifier
