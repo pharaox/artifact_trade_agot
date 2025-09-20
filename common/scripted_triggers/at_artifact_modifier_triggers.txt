@@ -211,6 +211,23 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = crown_of_crakehall_modifier
 		has_artifact_modifier = weirwood_throne_modifier
 		has_artifact_modifier = decorated_dragon_plate_armor_modifier
+		has_artifact_modifier = royce_runic_armor_modifier
+		has_artifact_modifier = gold_leaves_modifier
+		has_artifact_modifier = bors_skull_modifier
+		has_artifact_modifier = stone_skin_club_modifier
+		has_artifact_modifier = herndons_horn_modifier
+		has_artifact_modifier = florys_cloak_01_modifier
+		has_artifact_modifier = florys_cloak_02_modifier
+		has_artifact_modifier = florys_cloak_03_modifier
+		has_artifact_modifier = foss_bow_modifier
+		has_artifact_modifier = elenei_cloak_modifier
+		has_artifact_modifier = dondarrion_message_modifier
+		has_artifact_modifier = flaying_knife_modifier
+		has_artifact_modifier = falcon_knight_helm_modifier
+		has_artifact_modifier = marsh_king_mount_modifier
+		has_artifact_modifier = horns_of_the_wood_modifier
+		has_artifact_modifier = green_hand_tabard_modifier
+		has_artifact_modifier = dragon_doll_06_modifier
 
 		# monthly_prestige_gain_mult
 		has_artifact_modifier = artifact_monthly_prestige_mult_1_modifier
@@ -257,6 +274,8 @@ at_has_artifact_piety_modifier = {
 		has_artifact_modifier = afarganyu_modifier
 		#AGOT
 		has_artifact_modifier = crown_of_hugor_modifier
+		has_artifact_modifier = bloodraven_longbow_modifier
+		has_artifact_modifier = weirwood_longbow_modifier
 
 		# monthly_piety_gain_per_happy_powerful_vassal_add
 		has_artifact_modifier = artifact_monthly_piety_gain_per_happy_powerful_vassal_add_1_modifier
@@ -363,6 +382,20 @@ at_has_artifact_court_grandeur_modifier = {
 		has_artifact_modifier = forgotten_magnars_drinking_horn_modifier
 		has_artifact_modifier = high_seat_of_winter_modifier
 		has_artifact_modifier = weirwood_throne_modifier
+		has_artifact_modifier = gold_leaves_modifier
+		has_artifact_modifier = bors_skull_modifier
+		has_artifact_modifier = stone_skin_club_modifier
+		has_artifact_modifier = herndons_horn_modifier
+		has_artifact_modifier = florys_cloak_01_modifier
+		has_artifact_modifier = florys_cloak_02_modifier
+		has_artifact_modifier = florys_cloak_03_modifier
+		has_artifact_modifier = foss_bow_modifier
+		has_artifact_modifier = elenei_cloak_modifier
+		has_artifact_modifier = dondarrion_message_modifier
+		has_artifact_modifier = falcon_knight_helm_modifier
+		has_artifact_modifier = marsh_king_mount_modifier
+		has_artifact_modifier = horns_of_the_wood_modifier
+		has_artifact_modifier = green_hand_tabard_modifier
 	}
 }
 
@@ -527,6 +560,23 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = crown_of_the_banefort_modifier
 		has_artifact_modifier = crown_of_crakehall_modifier
 		has_artifact_modifier = weirwood_throne_modifier
+		has_artifact_modifier = raven_feather_cloak_modifier
+		has_artifact_modifier = royce_runic_armor_modifier
+		has_artifact_modifier = gold_leaves_modifier
+		has_artifact_modifier = bors_skull_modifier
+		has_artifact_modifier = stone_skin_club_modifier
+		has_artifact_modifier = herndons_horn_modifier
+		has_artifact_modifier = florys_cloak_01_modifier
+		has_artifact_modifier = florys_cloak_02_modifier
+		has_artifact_modifier = florys_cloak_03_modifier
+		has_artifact_modifier = foss_bow_modifier
+		has_artifact_modifier = elenei_cloak_modifier
+		has_artifact_modifier = dondarrion_message_modifier
+		has_artifact_modifier = flaying_knife_modifier
+		has_artifact_modifier = falcon_knight_helm_modifier
+		has_artifact_modifier = marsh_king_mount_modifier
+		has_artifact_modifier = horns_of_the_wood_modifier
+		has_artifact_modifier = green_hand_tabard_modifier
 
 		# monthly_dynasty_prestige
 		has_artifact_modifier = artifact_monthly_prestige_add_1_modifier
@@ -605,6 +655,7 @@ at_has_artifact_dread_modifier = {
 		has_artifact_modifier = vs_skinpeeler_modifier
 		has_artifact_modifier = crown_of_hellholt_modifier
 		has_artifact_modifier = crown_of_the_banefort_modifier
+		has_artifact_modifier = dragon_doll_06_modifier
 	}
 }
 
@@ -653,7 +704,7 @@ at_has_artifact_stress_gain_modifier = {
 		has_artifact_modifier = artifact_stress_gain_3_modifier
 		has_artifact_modifier = artifact_stress_gain_4_modifier
 		#has_artifact_modifier = artifact_stress_gain_5_modifier
-		#has_artifact_modifier = artifact_stress_gain_6_modifier
+		has_artifact_modifier = artifact_stress_gain_6_modifier
 		has_artifact_modifier = artifact_stress_gain_7_modifier
 		has_artifact_modifier = artifact_stress_gain_1_penalty_modifier
 		has_artifact_modifier = artifact_magic_amulet_modifier
@@ -773,6 +824,7 @@ at_has_artifact_spouse_opinion_modifier = {
 		has_artifact_modifier = rhaenys_circlet_modifier
 		has_artifact_modifier = reach_crown_modifier
 		has_artifact_modifier = reachman_crown_modifier
+		has_artifact_modifier = elenei_cloak_modifier
 	}
 }
 
@@ -961,6 +1013,8 @@ at_has_artifact_culture_opinion_modifier = {
 		has_artifact_modifier = stormlander_crown_modifier
 		has_artifact_modifier = dragonbone_longbow_modifier
 		has_artifact_modifier = crown_of_dondarrion_modifier
+		has_artifact_modifier = dragonbone_longbow_modifier
+		has_artifact_modifier = dragon_doll_01_modifier
 	}
 }
 
@@ -1133,6 +1187,10 @@ at_has_artifact_vassal_levy_contribution_modifier = {
 		has_artifact_modifier = artifact_belligerent_levy_contribution_mult_2_modifier
 		has_artifact_modifier = artifact_belligerent_levy_contribution_mult_3_modifier
 		has_artifact_modifier = artifact_belligerent_levy_contribution_mult_4_modifier
+
+		# courtly_levy_contribution_mult
+		#AGOT
+		has_artifact_modifier = stone_skin_club_modifier
 	}
 }
 
@@ -1202,6 +1260,7 @@ at_has_artifact_development_growth_modifier = {
 		# character_capital_county_monthly_development_growth_add
 		#AGOT
 		has_artifact_modifier = crown_of_castamere_modifier
+		has_artifact_modifier = gold_leaves_modifier
 	}
 }
 
@@ -1372,6 +1431,9 @@ at_has_artifact_seduce_scheme_power_modifier = {
 		has_artifact_modifier = artifact_seduce_scheme_phase_duration_add_4_modifier
 		#AGOT
 		has_artifact_modifier = bittersteel_skull_modifier
+		has_artifact_modifier = florys_cloak_01_modifier
+		has_artifact_modifier = florys_cloak_02_modifier
+		has_artifact_modifier = florys_cloak_03_modifier
 	}
 }
 
@@ -1530,6 +1592,7 @@ at_has_artifact_diplomacy_modifier = {
 		# diplomacy_per_piety_level
 		#AGOT
 		has_artifact_modifier = circlet_of_rhllor_modifier
+		has_artifact_modifier = raven_feather_cloak_modifier
 	}
 }
 
@@ -1761,6 +1824,8 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = roberts_armor_modifier
 		has_artifact_modifier = kingsguard_armor_modifier
 		has_artifact_modifier = skinchangers_second_pelt_modifier
+		has_artifact_modifier = raven_feather_cloak_modifier
+		has_artifact_modifier = royce_runic_armor_modifier
 	}
 }
 
@@ -1795,6 +1860,7 @@ at_has_artifact_knights_modifier = {
 		has_artifact_modifier = crown_of_bear_island_modifier
 		has_artifact_modifier = crown_of_dondarrion_modifier
 		has_artifact_modifier = vs_unkindness_modifier
+		has_artifact_modifier = green_hand_tabard_modifier
 	}
 }
 
@@ -1922,6 +1988,8 @@ at_has_artifact_damage_toughness_pursuit_screen_modifier = {
 		has_artifact_modifier = artifact_archer_cavalry_damage_add_2_modifier
 		has_artifact_modifier = artifact_archer_cavalry_damage_add_3_modifier
 		has_artifact_modifier = artifact_archer_cavalry_damage_add_4_modifier
+		#AGOT
+		has_artifact_modifier = foss_bow_modifier
 
 		# retreat_losses
 		has_artifact_modifier = artifact_retreat_losses_1_modifier
@@ -2045,6 +2113,7 @@ at_has_artifact_advantage_modifier = {
 		has_artifact_modifier = vs_widestripe_modifier
 		has_artifact_modifier = vs_dancer_modifier
 		has_artifact_modifier = vs_iron_will_modifier
+		has_artifact_modifier = krakenhorn_modifier
 
 		# winter_advantage
 		has_artifact_modifier = artifact_winter_movement_speed
@@ -2058,6 +2127,8 @@ at_has_artifact_naval_speed_modifier = {
 	OR = {
 		# naval_movement_speed_mult
 		has_artifact_modifier = artifact_naval_speed_2_modifier
+		#AGOT
+		has_artifact_modifier = krakenhorn_modifier
 
 		# embarkation_cost_mult
 	}
@@ -2144,6 +2215,9 @@ at_has_artifact_travel_modifier = {
 		has_artifact_modifier = artifact_mountains_danger_travel_modifier
 		has_artifact_modifier = artifact_forest_danger_travel_modifier
 		has_artifact_modifier = artifact_taiga_danger_travel_modifier
+		#AGOT
+		has_artifact_modifier = krakenhorn_modifier
+		has_artifact_modifier = horns_of_the_wood_modifier
 
 		# character_travel_speed_mult
 		# character_travel_safety_mult

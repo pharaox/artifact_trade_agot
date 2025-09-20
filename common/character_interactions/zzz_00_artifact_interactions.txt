@@ -3,9 +3,11 @@
 destroy_artifact_interaction = {
 	interface_priority = 30
 	common_interaction = yes
+	icon = artifact
 	category = interaction_category_friendly
 	desc = destroy_artifact_interaction_desc
-	icon = artifact
+	#AGOT Disabled
+	#icon = artifact
 
 	target_type = artifact
 	target_filter = actor_artifacts
@@ -31,6 +33,20 @@ destroy_artifact_interaction = {
 				}
 			}
 		}
+		scope:actor = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				NOT = {
+					involved_activity ?= { #do not give out anything during coronation
+						has_activity_type = activity_coronation
+						activity_host = scope:actor
+					}
+				}
+			}
+		}
+
 		#AGOT Added, no non-human interactions
 		scope:actor = { is_human = yes }
 	}
@@ -397,7 +413,20 @@ destroy_artifact_interaction = {
 			scope:target = {
 				rarity = common
 				artifact_slot_type = miscellaneous
-				artifact_durability <= define:NInventory|ARTIFACT_LOW_DURABILITY
+				#Unop: We need to handle below-standard durability artifact
+				OR = {
+					AND = {
+						artifact_max_durability >= define:NInventory|ARTIFACT_DEFAULT_MAX_DURABILITY
+						artifact_durability <= define:NInventory|ARTIFACT_LOW_DURABILITY
+					}
+					AND = { #Unop: If the artifact use a custom durability that is below the "default" then we compute the % of durability left instead
+						artifact_max_durability < define:NInventory|ARTIFACT_DEFAULT_MAX_DURABILITY
+						artifact_durability_percent <= { #Unop: Check %durability left instead of fixed durability
+							value = define:NInventory|ARTIFACT_LOW_DURABILITY
+							divide = 100
+						}
+					}
+				}
 			}
 		}
 		modifier = { # Aniconists destroy most things

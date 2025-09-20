@@ -15,6 +15,16 @@ visit_local_settlement_decision = {
 		#DLC check.
 		has_ep3_dlc_trigger = yes
 		is_landless_adventurer = yes
+
+		#AGOT Added
+		NOT = {
+			root.location = {
+				OR = {
+					has_holding_type = wilderness_holding
+					has_holding_type = ruin_holding
+				}
+			}
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -52,15 +62,6 @@ visit_local_settlement_decision = {
 			text = "decision_already_visiting_local_settlement"
 			subject = root
 			NOT = { has_variable = ep3_laamp_decision_1000_is_visiting }
-		}
-		#AGOT Added
-		custom_description = {
-			text = "visit_local_settlement_is_ruin"
-			NOT = {
-				root.location = {
-					has_holding_type = ruin_holding
-				}
-			}
 		}
 	}
 
