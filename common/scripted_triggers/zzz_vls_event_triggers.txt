@@ -55,6 +55,7 @@ vls_is_east_africa_like_location_trigger = {
 vls_has_church_like_holding_trigger = {
 	OR = {
 		has_holding_type = church_holding
+		has_holding_type = temple_citadel_holding
 		has_holding_type = monastery_holding
 	}
 }

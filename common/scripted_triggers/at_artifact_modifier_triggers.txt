@@ -86,6 +86,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = vs_iron_price_modifier
 		has_artifact_modifier = vs_unkindness_modifier
 		has_artifact_modifier = vs_swansong_modifier
+		has_artifact_modifier = vs_sting_modifier
 		#AGOT Other
 		has_artifact_modifier = aegon_i_crown_modifier
 		has_artifact_modifier = aenys_crown_modifier
@@ -228,6 +229,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = horns_of_the_wood_modifier
 		has_artifact_modifier = green_hand_tabard_modifier
 		has_artifact_modifier = dragon_doll_06_modifier
+		has_artifact_modifier = dragonbinder_modifier
 
 		# monthly_prestige_gain_mult
 		has_artifact_modifier = artifact_monthly_prestige_mult_1_modifier
@@ -270,6 +272,11 @@ at_has_artifact_piety_modifier = {
 		#has_artifact_modifier = artifact_monthly_piety_negative_1_modifier
 		has_artifact_modifier = desecrated_artifact_modifier
 		#has_artifact_modifier = artifact_fake_papal_tiara_modifier
+		has_artifact_modifier = artifact_magic_amulet_modifier
+		has_artifact_modifier = artifact_kris_1_modifier
+		has_artifact_modifier = artifact_kris_2_modifier
+		has_artifact_modifier = artifact_kris_3_modifier
+		has_artifact_modifier = artifact_kris_4_modifier
 		# historical
 		has_artifact_modifier = afarganyu_modifier
 		#AGOT
@@ -317,9 +324,9 @@ at_has_artifact_piety_modifier = {
 		has_artifact_modifier = artifact_monthly_piety_from_buildings_mult_12_modifier
 
 		# monthly_piety_gain_per_legitimacy_level_mult
-		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_1_modifier
-		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_2_modifier
-		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_3_modifier
+		has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_1_modifier
+		has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_2_modifier
+		has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_3_modifier
 		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_4_modifier
 		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_5_modifier
 		#has_artifact_modifier = artifact_monthly_piety_gain_per_legitimacy_level_mult_6_modifier
@@ -461,6 +468,7 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = vs_iron_price_modifier
 		has_artifact_modifier = vs_unkindness_modifier
 		has_artifact_modifier = vs_swansong_modifier
+		has_artifact_modifier = vs_sting_modifier
 		#AGOT Other
 		has_artifact_modifier = aegon_i_crown_modifier
 		has_artifact_modifier = aenys_crown_modifier
@@ -577,6 +585,7 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = marsh_king_mount_modifier
 		has_artifact_modifier = horns_of_the_wood_modifier
 		has_artifact_modifier = green_hand_tabard_modifier
+		has_artifact_modifier = dragonbinder_modifier
 
 		# monthly_dynasty_prestige
 		has_artifact_modifier = artifact_monthly_prestige_add_1_modifier
@@ -656,6 +665,8 @@ at_has_artifact_dread_modifier = {
 		has_artifact_modifier = crown_of_hellholt_modifier
 		has_artifact_modifier = crown_of_the_banefort_modifier
 		has_artifact_modifier = dragon_doll_06_modifier
+		has_artifact_modifier = dragonbinder_modifier
+		has_artifact_modifier = soul_of_harrenhal_danelle_modifier
 	}
 }
 
@@ -670,6 +681,7 @@ at_has_artifact_fertility_modifier = {
 		#AGOT
 		has_artifact_modifier = alysannecrown_modifier
 		has_artifact_modifier = moons_rod_modifier
+		has_artifact_modifier = soul_of_harrenhal_alys_modifier
 	}
 }
 
@@ -683,6 +695,7 @@ at_has_artifact_health_modifier = {
 		has_artifact_modifier = artifact_health_penalty_1_modifier
 		#AGOT
 		has_artifact_modifier = vs_longclaw_modifier
+		has_artifact_modifier = soul_of_harrenhal_modifier
 
 		# negate_health_penalty_add
 		has_artifact_modifier = artifact_negate_health_penalty_add_1_modifier
@@ -871,6 +884,7 @@ at_has_artifact_attraction_opinion_modifier = {
 		has_artifact_modifier = myrish_lace_modifier
 		has_artifact_modifier = viserra_mirror_modifier
 		has_artifact_modifier = crown_of_hearts_home_modifier
+		has_artifact_modifier = soul_of_harrenhal_alys_modifier
 	}
 }
 
@@ -1521,6 +1535,7 @@ at_has_artifact_martial_lifestyle_xp_modifier = {
 at_has_artifact_stewardship_lifestyle_xp_modifier = {
 	OR = {
 		# stewardship_lifestyle_xp_gain_mult
+		has_artifact_modifier = artifact_stewardship_lifestyle_xp_1_modifier
 		has_artifact_modifier = artifact_stewardship_lifestyle_xp_2_modifier
 
 		# monthly_stewardship_lifestyle_xp_gain_mult
@@ -1588,6 +1603,7 @@ at_has_artifact_diplomacy_modifier = {
 		has_artifact_modifier = artifact_diplomacy_per_prestige_level_modifier
 		#AGOT
 		has_artifact_modifier = weirwood_flute_modifier
+		has_artifact_modifier = soul_of_harrenhal_rhaena_modifier
 
 		# diplomacy_per_piety_level
 		#AGOT
@@ -1652,6 +1668,8 @@ at_has_artifact_stewardship_modifier = {
 		# stewardship_per_stress_level
 		has_artifact_modifier = artifact_stewardship_per_stress_level_1_modifier
 		has_artifact_modifier = artifact_stewardship_per_stress_level_2_modifier
+		#AGOT
+		has_artifact_modifier = vs_sting_modifier
 
 		# stewardship_per_prestige_level
 
@@ -1707,6 +1725,8 @@ at_has_artifact_learning_modifier = {
 
 		# learning_per_piety_level
 		has_artifact_modifier = artifact_learning_per_piety_level_modifier
+		#AGOT
+		has_artifact_modifier = soul_of_harrenhal_rhaena_modifier
 	}
 }
 
@@ -1777,6 +1797,7 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = bobby_hammer_modifier
 		has_artifact_modifier = bobby_hammer_cooler_modifier
 		has_artifact_modifier = emoBoy_sword_modifier
+		has_artifact_modifier = bumblin_sword_modifier
 		has_artifact_modifier = kingsguard_sword_modifier
 		has_artifact_modifier = vs_black_death_modifier
 		has_artifact_modifier = vs_mothers_grief_modifier
@@ -1792,6 +1813,7 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = vs_iron_price_modifier
 		has_artifact_modifier = vs_unkindness_modifier
 		has_artifact_modifier = vs_swansong_modifier
+		has_artifact_modifier = vs_sting_modifier
 		#AGOT Other
 		has_artifact_modifier = daemonblackfyre_crown_modifier
 		has_artifact_modifier = lucerys_gun_modifier
@@ -2149,6 +2171,10 @@ at_has_artifact_legend_spread_modifier = {
 		#has_artifact_modifier = artifact_legend_spread_mult_8_modifier
 		#has_artifact_modifier = artifact_legend_spread_mult_9_modifier
 		has_artifact_modifier = artifact_legend_spread_mult_10_modifier
+		has_artifact_modifier = artifact_kris_1_modifier
+		has_artifact_modifier = artifact_kris_2_modifier
+		has_artifact_modifier = artifact_kris_3_modifier
+		has_artifact_modifier = artifact_kris_4_modifier
 	}
 }
 
@@ -2169,15 +2195,19 @@ at_has_artifact_legitimacy_modifier = {
 	OR = {
 		# legitimacy_gain_mult
 		#has_artifact_modifier = artifact_legitimacy_gain_mult_1_modifier
-		#has_artifact_modifier = artifact_legitimacy_gain_mult_2_modifier
-		#has_artifact_modifier = artifact_legitimacy_gain_mult_3_modifier
-		#has_artifact_modifier = artifact_legitimacy_gain_mult_4_modifier
-		#has_artifact_modifier = artifact_legitimacy_gain_mult_5_modifier
+		has_artifact_modifier = artifact_legitimacy_gain_mult_2_modifier
+		has_artifact_modifier = artifact_legitimacy_gain_mult_3_modifier
+		has_artifact_modifier = artifact_legitimacy_gain_mult_4_modifier
+		has_artifact_modifier = artifact_legitimacy_gain_mult_5_modifier
 		#has_artifact_modifier = artifact_legitimacy_gain_mult_6_modifier
 		#has_artifact_modifier = artifact_legitimacy_gain_mult_7_modifier
 		#has_artifact_modifier = artifact_legitimacy_gain_mult_8_modifier
 		#has_artifact_modifier = artifact_legitimacy_gain_mult_9_modifier
 		#has_artifact_modifier = artifact_legitimacy_gain_mult_10_modifier
+		has_artifact_modifier = artifact_kris_1_modifier
+		has_artifact_modifier = artifact_kris_2_modifier
+		has_artifact_modifier = artifact_kris_3_modifier
+		has_artifact_modifier = artifact_kris_4_modifier
 		#AGOT
 		has_artifact_modifier = iron_throne_modifier
 		has_artifact_modifier = seastone_chair_modifier
@@ -2188,6 +2218,16 @@ at_has_artifact_legitimacy_modifier = {
 		has_artifact_modifier = redbeard_axe_modifier
 		has_artifact_modifier = high_seat_of_winter_modifier
 		has_artifact_modifier = weirwood_throne_modifier
+
+		# legitimacy_loss_mult
+		#has_artifact_modifier = artifact_legitimacy_loss_mult_1_modifier
+		has_artifact_modifier = artifact_legitimacy_loss_mult_2_modifier
+		has_artifact_modifier = artifact_legitimacy_loss_mult_3_modifier
+		has_artifact_modifier = artifact_legitimacy_loss_mult_4_modifier
+		has_artifact_modifier = artifact_legitimacy_loss_mult_5_modifier
+		#has_artifact_modifier = artifact_legitimacy_loss_mult_6_modifier
+		#has_artifact_modifier = artifact_legitimacy_loss_mult_7_modifier
+		#has_artifact_modifier = artifact_legitimacy_loss_mult_8_modifier
 	}
 }
 
@@ -2275,4 +2315,37 @@ at_has_artifact_herd_conversion_modifier = {
 		has_artifact_modifier = artifact_herd_conversion_7_modifier
 		has_artifact_modifier = artifact_herd_conversion_8_modifier
 	}
+}
+
+# TGP
+
+at_has_artifact_merit_modifier = {
+	OR = {
+		# monthly_merit_mult
+		has_artifact_modifier = artifact_monthly_merit_mult_1_modifier
+		has_artifact_modifier = artifact_monthly_merit_mult_2_modifier
+		has_artifact_modifier = artifact_monthly_merit_mult_3_modifier
+		has_artifact_modifier = artifact_monthly_merit_mult_4_modifier
+		has_artifact_modifier = artifact_monthly_merit_mult_5_modifier
+		has_artifact_modifier = artifact_monthly_merit_mult_6_modifier
+		has_artifact_modifier = artifact_monthly_merit_mult_7_modifier
+		has_artifact_modifier = artifact_monthly_merit_mult_8_modifier
+	}
+}
+
+at_has_artifact_poet_trait_xp_modifier = {
+	OR = {
+		# trait_track_lifestyle_poet_xp_gain_mult
+		has_artifact_modifier = artifact_poetry_1_modifier
+		has_artifact_modifier = artifact_poetry_2_modifier
+		has_artifact_modifier = artifact_poetry_3_modifier
+	}
+}
+
+at_has_artifact_confucian_education_trait_xp_modifier = {
+	always = no
+}
+
+at_has_artifact_study_confucian_classics_power_modifier = {
+	always = no
 }
