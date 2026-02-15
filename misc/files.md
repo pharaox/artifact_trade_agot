@@ -2,7 +2,7 @@
 
 ## AGOT Files and Objects
 
-### Implicit
+### Explicit
 
 * `common/character_interactions/00_artifact_interactions.txt`
   * `destroy_artifact_interaction`

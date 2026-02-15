@@ -1,0 +1,110 @@
+﻿destroy_artifact_aniconist_effect = {
+	$ARTIFACT$ = {
+		save_scope_as = artifact # STA Use a permanent scope for the event
+	}
+
+	$DESTROYER$ = {
+		if = {
+			limit = {
+				OR = {
+					$DESTROYER$.faith = { has_doctrine_parameter = destroying_artifacts_is_pious }
+					$PIETY_BY_DEFAULT$ = yes
+				}
+			}
+			give_destroyed_artifact_piety = yes
+		}
+		if = {
+			limit = {
+				$GIVE_GOLD$ = yes
+			}
+			add_gold = {
+				if = {
+					limit = {
+						scope:artifact = { rarity = illustrious }
+					}
+					add = {
+						value = 25
+					}
+				}
+				else_if = {
+					limit = {
+						scope:artifact = { rarity = famed }
+					}
+					add = {
+						value = 15
+					}
+				}
+				else_if = {
+					limit = {
+						scope:artifact = { rarity = masterwork }
+					}
+					add = {
+						value = 8
+					}
+				}
+				else = {
+					add = {
+						value = 4
+					}
+				}
+
+				# Boost the value up to something meaningful
+				multiply = {
+					value = 10
+				}
+
+				# multiply by durability percentage
+				multiply = {
+					add = scope:artifact.artifact_durability
+					divide = scope:artifact.artifact_max_durability
+					divide = 2
+					add = 0.5
+				}
+
+				#Nerf it to bits for LAAMPs
+				if = {
+					limit = {
+						$DESTROYER$ = { has_government = landless_adventurer_government }
+					}
+					multiply = {
+						value = 0.1
+					}
+					round = yes #Unop: Move the round here from the multiply block since it will make it multiply by 0
+				}
+				if = {
+					limit = {
+						exists = scope:artifact.var:ai_to_ai_destroy_in_sieges # Trash artifact
+					}
+					max = {
+						value = $DESTROYER$.tiny_gold_value
+						multiply = 0.5
+					}
+				}
+
+				min = 1
+			}
+		}
+
+		# STA: Trigger event
+		save_scope_as = destroyer
+		scope:artifact = {
+			trigger_event = {
+				on_action = at_on_artifact_destroyed
+			}
+		}
+
+		#AGOT Added
+		if = {
+			limit = {
+				scope:artifact = {
+					has_variable = valyrian_steel
+					has_variable = historical_unique_artifact
+					NOT = { has_variable = valyrian_steel_armor_artifact }
+				}
+			}
+			agot_valyrian_steel_sword_destroyed = { SWORD = scope:artifact }
+		}
+
+		destroy_owned_artifact = scope:artifact
+	}
+}
