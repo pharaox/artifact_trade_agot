@@ -122,6 +122,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = crown_of_gardener_war_iron_modifier
 		has_artifact_modifier = royce_crown_modifier
 		has_artifact_modifier = bolton_crown_modifier
+		has_artifact_modifier = bolton_skin_crown_modifier
 		has_artifact_modifier = dustin_crown_modifier
 		has_artifact_modifier = umber_crown_modifier
 		has_artifact_modifier = manderly_crown_modifier
@@ -153,6 +154,7 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = circlet_of_rhllor_modifier
 		has_artifact_modifier = crown_of_hugor_modifier
 		has_artifact_modifier = daemonblackfyre_crown_modifier
+		has_artifact_modifier = cannibal_crown_modifier
 		has_artifact_modifier = valyrian_steel_armor_modifier
 		has_artifact_modifier = maelys_armor_modifier
 		has_artifact_modifier = rhaegars_armor_modifier
@@ -213,6 +215,47 @@ at_has_artifact_prestige_modifier = {
 		has_artifact_modifier = weirwood_throne_modifier
 		has_artifact_modifier = decorated_dragon_plate_armor_modifier
 		has_artifact_modifier = royce_runic_armor_modifier
+		#AGOT Armor Commission
+		has_artifact_modifier = baratheon_armor_01_modifier
+		has_artifact_modifier = ned_armor_01_modifier
+		has_artifact_modifier = rhaegar_armor_01_modifier
+		has_artifact_modifier = maelys_armor_01_modifier
+		has_artifact_modifier = tywin_armor_01_modifier
+		has_artifact_modifier = jaime_armor_01_modifier
+		has_artifact_modifier = reyne_armor_01_modifier
+		has_artifact_modifier = arryn_armor_01_modifier
+		has_artifact_modifier = tyrell_armor_01_modifier
+		has_artifact_modifier = bolton_armor_01_modifier
+		has_artifact_modifier = royce_armor_01_modifier
+		has_artifact_modifier = rowan_armor_01_modifier
+		has_artifact_modifier = osgrey_armor_01_modifier
+		has_artifact_modifier = osgrey_armor_02_modifier
+		has_artifact_modifier = lydden_armor_01_modifier
+		has_artifact_modifier = braavosi_armor_01_modifier
+		has_artifact_modifier = braavosi_armor_02_modifier
+		has_artifact_modifier = triarchy_armor_03_modifier
+		has_artifact_modifier = decorated_dragon_plate_armor_01_modifier
+		has_artifact_modifier = valyrian_armor_02_modifier
+		has_artifact_modifier = valyrian_armor_03_modifier
+		has_artifact_modifier = valyrian_armor_03_red_modifier
+		has_artifact_modifier = valyrian_armor_03_high_modifier
+		has_artifact_modifier = valyrian_armor_03_high_red_modifier
+		has_artifact_modifier = stormlander_armor_02_modifier
+		has_artifact_modifier = stormlander_armor_03_modifier
+		has_artifact_modifier = westerlander_armor_02_modifier
+		has_artifact_modifier = westerlander_armor_03_modifier
+		has_artifact_modifier = valeman_armor_02_modifier
+		has_artifact_modifier = valeman_armor_03_modifier
+		has_artifact_modifier = reachman_armor_02_modifier
+		has_artifact_modifier = reachman_armor_03_modifier
+		has_artifact_modifier = honeywiner_armor_01_modifier
+		has_artifact_modifier = riverlander_armor_03_modifier
+		has_artifact_modifier = riverlander_armor_04_modifier
+		has_artifact_modifier = northman_armor_03_modifier
+		has_artifact_modifier = ironborn_armor_03_modifier
+		has_artifact_modifier = dornish_armor_03_modifier
+		has_artifact_modifier = stone_dornish_armor_01_modifier
+		has_artifact_modifier = hedge_knight_armor_01_modifier
 		has_artifact_modifier = gold_leaves_modifier
 		has_artifact_modifier = bors_skull_modifier
 		has_artifact_modifier = stone_skin_club_modifier
@@ -283,6 +326,8 @@ at_has_artifact_piety_modifier = {
 		has_artifact_modifier = crown_of_hugor_modifier
 		has_artifact_modifier = bloodraven_longbow_modifier
 		has_artifact_modifier = weirwood_longbow_modifier
+		has_artifact_modifier = reachman_armor_03_modifier
+		has_artifact_modifier = osgrey_armor_02_modifier
 
 		# monthly_piety_gain_per_happy_powerful_vassal_add
 		has_artifact_modifier = artifact_monthly_piety_gain_per_happy_powerful_vassal_add_1_modifier
@@ -498,6 +543,7 @@ at_has_artifact_dynasty_prestige_modifier = {
 		has_artifact_modifier = crown_of_gardener_war_iron_modifier
 		has_artifact_modifier = royce_crown_modifier
 		has_artifact_modifier = bolton_crown_modifier
+		has_artifact_modifier = bolton_skin_crown_modifier
 		has_artifact_modifier = dustin_crown_modifier
 		has_artifact_modifier = umber_crown_modifier
 		has_artifact_modifier = manderly_crown_modifier
@@ -649,6 +695,10 @@ at_has_artifact_dread_modifier = {
 		has_artifact_modifier = vs_orphan_maker_modifier
 		has_artifact_modifier = vs_black_death_modifier
 		has_artifact_modifier = bolton_crown_modifier
+		has_artifact_modifier = bolton_skin_crown_modifier
+		has_artifact_modifier = cannibal_crown_modifier
+		has_artifact_modifier = maelys_armor_01_modifier
+		has_artifact_modifier = tywin_armor_01_modifier
 		has_artifact_modifier = uller_skull_modifier
 		has_artifact_modifier = hands_hand_modifier
 		has_artifact_modifier = harmund_tongue_modifier
@@ -759,6 +809,8 @@ at_has_artifact_vassal_opinion_modifier = {
 		has_artifact_modifier = artifact_powerful_vassal_opinion_8_modifier
 
 		# direct_vassal_opinion
+		#AGOT
+		has_artifact_modifier = ned_armor_01_modifier
 
 		# courtly_opinion
 		has_artifact_modifier = artifact_courtly_vassal_opinion_1_modifier
@@ -773,6 +825,11 @@ at_has_artifact_vassal_opinion_modifier = {
 		has_artifact_modifier = artifact_glory_hound_vassal_opinion_4_modifier
 		#AGOT
 		has_artifact_modifier = aemond_eye_modifier
+		has_artifact_modifier = valyrian_armor_03_red_modifier
+
+		# fellow_vassal_opinion
+		#AGOT
+		has_artifact_modifier = reyne_armor_01_modifier
 
 		# parochial_opinion
 		has_artifact_modifier = artifact_parochial_vassal_opinion_1_modifier
@@ -822,6 +879,7 @@ at_has_artifact_courtier_and_guest_opinion_modifier = {
 		has_artifact_modifier = artifact_armor_knight_of_the_swan_artifact_modifier
 		#AGOT
 		has_artifact_modifier = vs_disputant_modifier
+		has_artifact_modifier = valyrian_armor_03_modifier
 		# courtier_opinion
 	}
 }
@@ -859,6 +917,7 @@ at_has_artifact_dynasty_opinion_modifier = {
 		has_artifact_modifier = rhaegars_armor_modifier
 		has_artifact_modifier = roberts_armor_modifier
 		has_artifact_modifier = seahorse_statue_modifier
+		has_artifact_modifier = valyrian_armor_02_modifier
 	}
 }
 
@@ -885,6 +944,8 @@ at_has_artifact_attraction_opinion_modifier = {
 		has_artifact_modifier = viserra_mirror_modifier
 		has_artifact_modifier = crown_of_hearts_home_modifier
 		has_artifact_modifier = soul_of_harrenhal_alys_modifier
+		has_artifact_modifier = braavosi_armor_01_modifier
+		has_artifact_modifier = braavosi_armor_02_modifier
 	}
 }
 
@@ -915,6 +976,8 @@ at_has_artifact_clergy_opinion_modifier = {
 		has_artifact_modifier = artifact_clergy_opinion_12_modifier
 		has_artifact_modifier = artifact_clergy_opinion_penalty_2_modifier
 		#has_artifact_modifier = artifact_clergy_opinion_penalty_5_modifier
+		#AGOT
+		has_artifact_modifier = arryn_armor_01_modifier
 	}
 }
 
@@ -946,6 +1009,8 @@ at_has_artifact_different_faith_opinion_modifier = {
 		has_artifact_modifier = artifact_different_faith_opinion_10_modifier
 		has_artifact_modifier = artifact_different_faith_opinion_11_modifier
 		has_artifact_modifier = artifact_different_faith_opinion_12_modifier
+		#AGOT
+		has_artifact_modifier = royce_armor_01_modifier
 	}
 }
 
@@ -1127,6 +1192,7 @@ at_has_artifact_domain_tax_modifier = {
 		has_artifact_modifier = afarganyu_modifier
 		#AGOT
 		has_artifact_modifier = pentoshi_cheese_modifier
+		has_artifact_modifier = honeywiner_armor_01_modifier
 	}
 }
 
@@ -1205,6 +1271,15 @@ at_has_artifact_vassal_levy_contribution_modifier = {
 		# courtly_levy_contribution_mult
 		#AGOT
 		has_artifact_modifier = stone_skin_club_modifier
+		has_artifact_modifier = valyrian_armor_03_high_modifier
+
+		# glory_hound_levy_contribution_mult
+		#AGOT
+		has_artifact_modifier = valyrian_armor_03_high_red_modifier
+
+		# mountains_levy_size
+		#AGOT
+		has_artifact_modifier = valeman_armor_03_modifier
 	}
 }
 
@@ -1270,6 +1345,7 @@ at_has_artifact_development_growth_modifier = {
 		has_artifact_modifier = afarganyu_modifier
 		#AGOT
 		has_artifact_modifier = manderly_crown_modifier
+		has_artifact_modifier = westerlander_armor_03_modifier
 
 		# character_capital_county_monthly_development_growth_add
 		#AGOT
@@ -1510,6 +1586,8 @@ at_has_artifact_diplomacy_lifestyle_xp_modifier = {
 		has_artifact_modifier = artifact_monthly_diplomacy_lifestyle_xp_2_modifier
 		has_artifact_modifier = artifact_monthly_diplomacy_lifestyle_xp_3_modifier
 		has_artifact_modifier = artifact_monthly_diplomacy_lifestyle_xp_4_modifier
+		#AGOT
+		has_artifact_modifier = valeman_armor_02_modifier
 	}
 }
 
@@ -1529,6 +1607,7 @@ at_has_artifact_martial_lifestyle_xp_modifier = {
 		has_artifact_modifier = vs_stalwart_modifier
 		has_artifact_modifier = vs_skullcleaver_modifier
 		has_artifact_modifier = vs_dragonbane_modifier
+		has_artifact_modifier = stormlander_armor_03_modifier
 	}
 }
 
@@ -1545,6 +1624,7 @@ at_has_artifact_stewardship_lifestyle_xp_modifier = {
 		has_artifact_modifier = artifact_monthly_stewardship_lifestyle_xp_4_modifier
 		#AGOT
 		has_artifact_modifier = vs_pincer_modifier
+		has_artifact_modifier = tyrell_armor_01_modifier
 	}
 }
 
@@ -1557,6 +1637,7 @@ at_has_artifact_intrigue_lifestyle_xp_modifier = {
 		has_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_4_modifier
 		#AGOT
 		has_artifact_modifier = vs_darktalon_modifier
+		has_artifact_modifier = bolton_armor_01_modifier
 	}
 }
 
@@ -1848,6 +1929,47 @@ at_has_artifact_prowess_modifier = {
 		has_artifact_modifier = skinchangers_second_pelt_modifier
 		has_artifact_modifier = raven_feather_cloak_modifier
 		has_artifact_modifier = royce_runic_armor_modifier
+		#AGOT Armor Commission
+		has_artifact_modifier = baratheon_armor_01_modifier
+		has_artifact_modifier = ned_armor_01_modifier
+		has_artifact_modifier = rhaegar_armor_01_modifier
+		has_artifact_modifier = maelys_armor_01_modifier
+		has_artifact_modifier = tywin_armor_01_modifier
+		has_artifact_modifier = jaime_armor_01_modifier
+		has_artifact_modifier = reyne_armor_01_modifier
+		has_artifact_modifier = arryn_armor_01_modifier
+		has_artifact_modifier = tyrell_armor_01_modifier
+		has_artifact_modifier = bolton_armor_01_modifier
+		has_artifact_modifier = royce_armor_01_modifier
+		has_artifact_modifier = rowan_armor_01_modifier
+		has_artifact_modifier = osgrey_armor_01_modifier
+		has_artifact_modifier = osgrey_armor_02_modifier
+		has_artifact_modifier = lydden_armor_01_modifier
+		has_artifact_modifier = braavosi_armor_01_modifier
+		has_artifact_modifier = braavosi_armor_02_modifier
+		has_artifact_modifier = triarchy_armor_03_modifier
+		has_artifact_modifier = decorated_dragon_plate_armor_01_modifier
+		has_artifact_modifier = valyrian_armor_02_modifier
+		has_artifact_modifier = valyrian_armor_03_modifier
+		has_artifact_modifier = valyrian_armor_03_red_modifier
+		has_artifact_modifier = valyrian_armor_03_high_modifier
+		has_artifact_modifier = valyrian_armor_03_high_red_modifier
+		has_artifact_modifier = stormlander_armor_02_modifier
+		has_artifact_modifier = stormlander_armor_03_modifier
+		has_artifact_modifier = westerlander_armor_02_modifier
+		has_artifact_modifier = westerlander_armor_03_modifier
+		has_artifact_modifier = valeman_armor_02_modifier
+		has_artifact_modifier = valeman_armor_03_modifier
+		has_artifact_modifier = reachman_armor_02_modifier
+		has_artifact_modifier = reachman_armor_03_modifier
+		has_artifact_modifier = honeywiner_armor_01_modifier
+		has_artifact_modifier = riverlander_armor_03_modifier
+		has_artifact_modifier = riverlander_armor_04_modifier
+		has_artifact_modifier = northman_armor_03_modifier
+		has_artifact_modifier = ironborn_armor_03_modifier
+		has_artifact_modifier = dornish_armor_03_modifier
+		has_artifact_modifier = stone_dornish_armor_01_modifier
+		has_artifact_modifier = hedge_knight_armor_01_modifier
 	}
 }
 
@@ -1883,6 +2005,7 @@ at_has_artifact_knights_modifier = {
 		has_artifact_modifier = crown_of_dondarrion_modifier
 		has_artifact_modifier = vs_unkindness_modifier
 		has_artifact_modifier = green_hand_tabard_modifier
+		has_artifact_modifier = jaime_armor_01_modifier
 	}
 }
 
@@ -1912,6 +2035,7 @@ at_has_artifact_levy_reinforcement_rate_modifier = {
 		#AGOT
 		has_artifact_modifier = vs_swordfish_modifier
 		has_artifact_modifier = crown_of_the_grey_king_rusted_modifier
+		has_artifact_modifier = westerlander_armor_02_modifier
 	}
 }
 
@@ -1935,6 +2059,7 @@ at_has_artifact_raid_speed_modifier = {
 		has_artifact_modifier = greyjoy_crown_modifier
 		has_artifact_modifier = bittersteel_skull_modifier
 		has_artifact_modifier = vs_iron_price_modifier
+		has_artifact_modifier = ironborn_armor_03_modifier
 	}
 }
 
@@ -1958,6 +2083,7 @@ at_has_artifact_hard_casualty_modifier_modifier = {
 		has_artifact_modifier = lucerys_gun_modifier
 		has_artifact_modifier = skinchangers_second_pelt_modifier
 		has_artifact_modifier = vs_swansong_modifier
+		has_artifact_modifier = baratheon_armor_01_modifier
 
 		# hard_casualty_modifier
 		has_artifact_modifier = artifact_hard_casualty_modifier_1_modifier
@@ -2136,12 +2262,21 @@ at_has_artifact_advantage_modifier = {
 		has_artifact_modifier = vs_dancer_modifier
 		has_artifact_modifier = vs_iron_will_modifier
 		has_artifact_modifier = krakenhorn_modifier
+		has_artifact_modifier = rowan_armor_01_modifier
+		has_artifact_modifier = lydden_armor_01_modifier
+		has_artifact_modifier = triarchy_armor_03_modifier
+		has_artifact_modifier = stormlander_armor_02_modifier
+		has_artifact_modifier = reachman_armor_02_modifier
+		has_artifact_modifier = riverlander_armor_03_modifier
+		has_artifact_modifier = dornish_armor_03_modifier
+		has_artifact_modifier = stone_dornish_armor_01_modifier
 
 		# winter_advantage
 		has_artifact_modifier = artifact_winter_movement_speed
 		has_artifact_modifier = artifact_winter_advantage
 		#AGOT
 		has_artifact_modifier = crown_of_true_winter_modifier
+		has_artifact_modifier = northman_armor_03_modifier
 	}
 }
 
@@ -2175,6 +2310,8 @@ at_has_artifact_legend_spread_modifier = {
 		has_artifact_modifier = artifact_kris_2_modifier
 		has_artifact_modifier = artifact_kris_3_modifier
 		has_artifact_modifier = artifact_kris_4_modifier
+		#AGOT
+		has_artifact_modifier = decorated_dragon_plate_armor_01_modifier
 	}
 }
 
@@ -2218,6 +2355,7 @@ at_has_artifact_legitimacy_modifier = {
 		has_artifact_modifier = redbeard_axe_modifier
 		has_artifact_modifier = high_seat_of_winter_modifier
 		has_artifact_modifier = weirwood_throne_modifier
+		has_artifact_modifier = rhaegar_armor_01_modifier
 
 		# legitimacy_loss_mult
 		#has_artifact_modifier = artifact_legitimacy_loss_mult_1_modifier
@@ -2264,6 +2402,9 @@ at_has_artifact_travel_modifier = {
 		# provisions_capacity_mult
 		# travel_companion_opinion
 		has_artifact_modifier = artifact_guide_map_modifier
+		#AGOT
+		has_artifact_modifier = riverlander_armor_04_modifier
+		has_artifact_modifier = hedge_knight_armor_01_modifier
 	}
 }
 

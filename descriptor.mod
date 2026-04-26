@@ -1,8 +1,8 @@
-version="0.7.0"
+version="0.8.0"
 tags={
 	"Gameplay"
 	"Character Interactions"
 	"Utilities"
 }
 name="Search & Trade Artifacts AGOT Compatibility"
-supported_version="1.18.*"
+supported_version="1.19.*"

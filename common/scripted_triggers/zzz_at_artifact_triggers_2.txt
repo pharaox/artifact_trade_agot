@@ -78,6 +78,7 @@ at_artifact_can_be_sold_trigger = {
 			agot_is_historical_unique_artifact = yes
 			agot_is_valyrian_steel_artifact = yes
 			agot_is_dragon_egg_artifact = yes
+			agot_is_dragon_skull_artifact = yes
 		}
 	}
 	trigger_else = {
